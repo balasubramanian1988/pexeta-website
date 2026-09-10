@@ -10,7 +10,7 @@ export async function POST(req: NextRequest) {
   }
 
   const supabase = getSupabaseServerClient();
-
+// this is just a new line
   // If Supabase env vars aren't configured yet, don't fail the form —
   // log it so it's still visible during setup/local dev.
   if (!supabase) {
