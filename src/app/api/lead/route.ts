@@ -13,6 +13,7 @@ export async function POST(req: NextRequest) {
 // this is just a new line
   // If Supabase env vars aren't configured yet, don't fail the form —
   // log it so it's still visible during setup/local dev.
+  // this is secondd another line
   if (!supabase) {
     console.warn("[lead] Supabase not configured. Lead payload:", body);
     return NextResponse.json({ ok: true, stored: false });
