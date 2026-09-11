@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 
@@ -16,8 +17,8 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border bg-white/90 backdrop-blur">
       <div className="container-px mx-auto flex h-16 max-w-6xl items-center justify-between">
-        <Link href="/" className="font-heading text-xl font-extrabold text-slate-950">
-          Pexeta
+        <Link href="/" className="flex items-center">
+          <Image src="/pexeta-logo.png" alt="Pexeta" width={130} height={46} priority className="h-9 w-auto md:h-10" />
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
