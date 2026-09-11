@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowUpRight, Boxes, LineChart, ShoppingBag, Zap } from "lucide-react";
+import { ArrowUpRight, Boxes, LineChart, ShoppingBag, Zap, Monitor, ListChecks, CreditCard, Camera, Megaphone, Target, ClipboardCheck } from "lucide-react";
 import LeadForm from "@/components/LeadForm";
 
 const stats = [
@@ -7,6 +7,16 @@ const stats = [
   { value: "₹8–10 L", label: "Monthly ad capital deployed" },
   { value: "14+", label: "Active retained brands" },
   { value: "3.8x", label: "Average ROAS / TACoS gain" },
+];
+
+const servicesHandled = [
+  { icon: Monitor, label: "Account Management" },
+  { icon: ListChecks, label: "Product Cataloguing" },
+  { icon: CreditCard, label: "Payment Management" },
+  { icon: ClipboardCheck, label: "Order Management" },
+  { icon: Camera, label: "Product Photography" },
+  { icon: Megaphone, label: "Product Marketing & Promotion" },
+  { icon: Target, label: "Pricing Strategies & Execution" },
 ];
 
 const channelLogos = [
@@ -119,19 +129,18 @@ export default function Home() {
             anchored by the marketplace where we have the deepest track record.
           </p>
 
-          <div className="mt-10 grid gap-5 md:grid-cols-3">
+          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             <Link
               href="/services/marketplaces"
-              className="group relative rounded-xl border-2 border-slate-950 bg-ice p-7 md:col-span-2 md:row-span-2"
+              className="group relative rounded-xl border-2 border-blue bg-ice p-6"
             >
-              <ShoppingBag className="text-amber-dark" size={28} />
-              <h3 className="mt-4 font-heading text-xl font-bold text-slate-950">Amazon Scaling Engine</h3>
+              <ShoppingBag className="text-amber-dark" size={24} />
+              <h3 className="mt-3 font-heading text-base font-bold text-slate-950">Amazon Scaling Engine</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
-                Deep listing optimization, A+ Content, Brand Registry management,
-                PPC &amp; DSP ad strategy, and disciplined TACoS control — this is
-                where most of our track record comes from.
+                Deep listing optimization, A+ Content, Brand Registry, PPC &amp; DSP
+                strategy, and disciplined TACoS control.
               </p>
-              <span className="mt-5 inline-flex items-center gap-1 text-sm font-semibold text-slate-950">
+              <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-slate-950">
                 See how it works <ArrowUpRight size={15} />
               </span>
             </Link>
@@ -154,7 +163,7 @@ export default function Home() {
               </p>
             </Link>
 
-            <Link href="/services/marketplaces" className="rounded-xl border border-border p-6 hover:border-slate-400 md:col-start-3">
+            <Link href="/services/marketplaces" className="rounded-xl border border-border p-6 hover:border-slate-400">
               <LineChart className="text-slate-950" size={24} />
               <h3 className="mt-3 font-heading text-base font-bold text-slate-950">Revenue &amp; Inventory Analytics</h3>
               <p className="mt-2 text-sm leading-relaxed text-slate-600">
@@ -162,6 +171,24 @@ export default function Home() {
                 protection built into weekly reporting.
               </p>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* WHAT WE HANDLE FOR YOU */}
+      <section className="border-b border-border bg-ice py-20">
+        <div className="container-px mx-auto max-w-6xl">
+          <h2 className="font-heading text-3xl font-bold text-slate-950">Everything we handle for you</h2>
+          <p className="mt-3 max-w-2xl text-slate-600">
+            End-to-end account operations, so you can focus on the product while we run the storefront.
+          </p>
+          <div className="mt-10 grid gap-x-8 gap-y-7 sm:grid-cols-2 lg:grid-cols-4">
+            {servicesHandled.map((s) => (
+              <div key={s.label} className="flex items-start gap-3">
+                <s.icon className="mt-0.5 shrink-0 text-blue" size={22} />
+                <span className="text-sm font-semibold text-slate-950">{s.label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </section>
