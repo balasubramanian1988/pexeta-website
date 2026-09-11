@@ -39,6 +39,35 @@ export default function AboutPage() {
 
       <section className="border-t border-border bg-ice py-16">
         <div className="container-px mx-auto max-w-4xl">
+          <h2 className="font-heading text-2xl font-bold text-slate-950">Led by operators, not just marketers</h2>
+          <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">
+            Pexeta is led by Balasubramanian VA, an entrepreneur with 13+
+            years of experience across e-commerce, retail distribution, and
+            go-to-market strategy, and an MBA from IIT Madras. Long before
+            marketplaces were central to how Indian brands grew, he was
+            already building distribution — as Managing Director of Arivar
+            Retail, he ran a ₹9 Cr+ annual business representing Usha
+            International, Singer India, TTK Prestige, Butterfly
+            Gandhimathi, and Jio Infocom across Tamil Nadu, with a
+            consistent 20% year-on-year growth. That same operator&apos;s
+            eye for distribution and sell-through now shapes how Pexeta runs
+            marketplace accounts — through Thrise.in, he has guided D2C
+            brands and SMEs through go-to-market planning, listing strategy,
+            and performance marketing across Amazon, Flipkart, Meesho, and
+            brand-owned websites.
+          </p>
+          <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">
+            That founder-level operating experience is paired with over a
+            decade of dedicated Amazon growth expertise on the team —
+            hands-on account management for sellers across India, the UK,
+            and the US — so every client account gets both strategic
+            direction and platform-level execution depth.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16">
+        <div className="container-px mx-auto max-w-4xl">
           <h2 className="font-heading text-2xl font-bold text-slate-950">How we work</h2>
           <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">
             Every account starts with an Amazon-first audit, because that&apos;s
