@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight, Boxes, LineChart, ShoppingBag, Zap, Monitor, ListChecks, CreditCard, Camera, Megaphone, Target, ClipboardCheck } from "lucide-react";
 import LeadForm from "@/components/LeadForm";
 
@@ -20,7 +21,15 @@ const servicesHandled = [
 ];
 
 const channelLogos = [
-  "Amazon", "Flipkart", "Myntra", "FirstCry", "Blinkit", "Instamart", "Zepto", "BigBasket",
+  { name: "Amazon", src: "/brands/amazon.png", w: 644, h: 223 },
+  { name: "Flipkart", src: "/brands/flipkart.png", w: 2586, h: 800 },
+  { name: "Myntra", src: "/brands/myntra.png", w: 577, h: 198 },
+  { name: "FirstCry", src: "/brands/firstcry.png", w: 370, h: 186 },
+  { name: "Blinkit", src: "/brands/blinkit.png", w: 341, h: 159 },
+  { name: "Swiggy Instamart", src: "/brands/instamart.png", w: 390, h: 110 },
+  { name: "Zepto", src: "/brands/zepto.png", w: 990, h: 360 },
+  { name: "BigBasket", src: "/brands/bigbasket.png", w: 324, h: 421 },
+  { name: "Shopify", src: "/brands/shopify.png", w: 4008, h: 1314 },
 ];
 
 const caseStudies = [
@@ -224,11 +233,16 @@ export default function Home() {
       <section className="border-b border-border bg-white py-16">
         <div className="container-px mx-auto max-w-6xl">
           <p className="text-center text-sm font-medium text-slate-600">Channels we grow brands on</p>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-6">
             {channelLogos.map((c) => (
-              <span key={c} className={`font-heading text-lg font-bold ${c === "Amazon" ? "text-amber-dark" : "text-slate-400"}`}>
-                {c}
-              </span>
+              <Image
+                key={c.name}
+                src={c.src}
+                alt={c.name}
+                width={c.w}
+                height={c.h}
+                className="h-6 w-auto object-contain grayscale opacity-60 transition hover:grayscale-0 hover:opacity-100 md:h-7"
+              />
             ))}
           </div>
         </div>
