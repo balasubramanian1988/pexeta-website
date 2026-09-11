@@ -56,6 +56,9 @@ export default function Header() {
           <Link href="/about" className="text-[15px] font-medium text-slate-800 hover:text-slate-950">
             About Us
           </Link>
+          <Link href="/careers" className="text-[15px] font-medium text-slate-800 hover:text-slate-950">
+            Careers
+          </Link>
         </nav>
 
         <div className="hidden md:block">
@@ -92,6 +95,9 @@ export default function Header() {
             </Link>
             <Link href="/about" className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
               About Us
+            </Link>
+            <Link href="/careers" className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
+              Careers
             </Link>
             <Link
               href="/contact"
