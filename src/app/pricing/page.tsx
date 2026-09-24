@@ -1,61 +1,35 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Check } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Pricing & Engagement Models",
   description:
-    "Fixed retainership, revenue performance share, or a hybrid enterprise model — transparent pricing for Pexeta's e-commerce growth partnership.",
+    "Fixed retainership or revenue performance share — the right engagement model for Pexeta's e-commerce growth partnership depends on your brand's scope and maturity.",
 };
 
 const models = [
   {
     name: "Fixed Retainership",
-    price: "₹25,000",
-    unit: "+ GST / month",
-    tagline: "For emerging brands",
-    features: [
-      "End-to-end account management",
-      "PPC campaign setup & optimization",
-      "Catalog health monitoring",
-      "Weekly performance reporting",
-    ],
+    tagline: "For brands building their foundation",
+    description:
+      "A flat monthly engagement covering end-to-end account management, campaign setup and optimization, and ongoing reporting — well suited to brands still establishing themselves on marketplaces.",
   },
   {
     name: "Revenue Performance Share",
-    price: "3%",
-    unit: "of overall revenue",
-    tagline: "For established brands",
-    highlighted: true,
-    features: [
-      "Everything in Fixed Retainership",
-      "Growth incentives aligned to GMV",
-      "Priority strategy reviews",
-      "Cross-channel expansion planning",
-    ],
-  },
-  {
-    name: "Hybrid Enterprise",
-    price: "Custom",
-    unit: "base + tiered rev share",
-    tagline: "For >₹25L/mo GMV accounts",
-    features: [
-      "Dedicated account pod",
-      "Custom reporting & dashboards",
-      "Multi-brand / multi-channel scale",
-      "Quarterly business reviews",
-    ],
+    tagline: "For established, scaling brands",
+    description:
+      "Our fee is tied directly to your revenue growth, keeping incentives aligned with your GMV — well suited to brands with an established base looking to scale further.",
   },
 ];
 
 const faqs = [
   {
     q: "Which model is right for my brand?",
-    a: "If you're under roughly ₹10L/month in marketplace revenue, the fixed retainer usually works out cheaper and gives you predictable costs. Above that, the revenue share aligns our incentives directly with your growth.",
+    a: "It depends on your brand's current scope, catalog size, and growth stage. Brands still establishing themselves on marketplaces usually do better on a fixed retainer for predictable costs; established brands looking to scale often prefer revenue share so our incentives move with their growth. We'll recommend a fit after understanding your business.",
   },
   {
-    q: "Is ad spend included in the retainer?",
-    a: "No — the retainer or revenue share covers our management fee. Ad spend is paid directly to the marketplace (Amazon, Flipkart, etc.) by you, so you retain full visibility and control over that budget.",
+    q: "Is ad spend included in the fee?",
+    a: "No — our fee covers account management and strategy. Ad spend is paid directly to the marketplace (Amazon, Flipkart, etc.) by you, so you retain full visibility and control over that budget.",
   },
   {
     q: "What's the minimum commitment?",
@@ -63,7 +37,7 @@ const faqs = [
   },
   {
     q: "Can I switch models later?",
-    a: "Yes. Many brands start on the fixed retainer and move to revenue share once their monthly GMV crosses a level where that makes more sense for both sides.",
+    a: "Yes. Many brands start on the fixed retainer and move to revenue share once their business reaches a stage where that makes more sense for both sides.",
   },
 ];
 
@@ -74,46 +48,32 @@ export default function PricingPage() {
         <div className="container-px mx-auto max-w-4xl">
           <h1 className="font-heading text-4xl font-extrabold text-slate-950">Engagement models</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
-            Transparent pricing — no hidden setup fees, no lock-in beyond the initial ramp-up period.
+            We work with brands on both a fixed retainership and a revenue performance share — the right structure
+            depends on your brand's scope and maturity, not a one-size-fits-all plan.
           </p>
         </div>
       </section>
 
       <section className="py-16">
-        <div className="container-px mx-auto grid max-w-5xl gap-6 md:grid-cols-3">
+        <div className="container-px mx-auto grid max-w-3xl gap-6 md:grid-cols-2">
           {models.map((m) => (
-            <div
-              key={m.name}
-              className={`rounded-xl border p-7 ${
-                m.highlighted ? "border-2 border-slate-950 bg-white shadow-lg shadow-slate-950/5" : "border-border bg-white"
-              }`}
-            >
+            <div key={m.name} className="rounded-xl border border-border bg-white p-7">
               <div className="text-xs font-medium text-slate-600">{m.tagline}</div>
               <h2 className="mt-2 font-heading text-lg font-bold text-slate-950">{m.name}</h2>
-              <div className="mt-4">
-                <span className="font-heading text-3xl font-extrabold text-slate-950">{m.price}</span>
-                <span className="ml-1 text-sm text-slate-600">{m.unit}</span>
-              </div>
-              <ul className="mt-6 space-y-2.5">
-                {m.features.map((f) => (
-                  <li key={f} className="flex items-start gap-2 text-sm text-slate-700">
-                    <Check size={16} className="mt-0.5 shrink-0 text-emerald" />
-                    {f}
-                  </li>
-                ))}
-              </ul>
-              <Link
-                href="/contact"
-                className={`mt-7 block rounded-md px-5 py-3 text-center text-sm font-semibold ${
-                  m.highlighted
-                    ? "bg-amber text-slate-950 hover:bg-amber-dark hover:text-white"
-                    : "border border-slate-950 text-slate-950 hover:bg-ice"
-                }`}
-              >
-                Get started
-              </Link>
+              <p className="mt-4 text-sm leading-relaxed text-slate-600">{m.description}</p>
             </div>
           ))}
+        </div>
+        <div className="container-px mx-auto mt-8 max-w-3xl text-center">
+          <p className="text-sm text-slate-600">
+            Not sure which fits? We'll recommend one after a quick look at your brand.
+          </p>
+          <Link
+            href="/contact"
+            className="mt-5 inline-block rounded-md bg-amber px-6 py-3 text-sm font-semibold text-slate-950 hover:bg-amber-dark hover:text-white"
+          >
+            Get started
+          </Link>
         </div>
       </section>
 

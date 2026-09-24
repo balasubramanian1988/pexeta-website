@@ -4,9 +4,9 @@ import { ArrowUpRight, Boxes, LineChart, ShoppingBag, Zap, Monitor, ListChecks, 
 import LeadForm from "@/components/LeadForm";
 
 const stats = [
-  { value: "₹1.5 Cr+", label: "Monthly revenue managed" },
-  { value: "₹8–10 L", label: "Monthly ad capital deployed" },
-  { value: "14+", label: "Active retained brands" },
+  { value: "₹5 Cr+", label: "Monthly revenue managed" },
+  { value: "₹1.1 Cr+", label: "Monthly ad capital deployed" },
+  { value: "40+", label: "Active retained brands" },
   { value: "3.8x", label: "Average ROAS / TACoS gain" },
 ];
 
@@ -104,7 +104,7 @@ export default function Home() {
             </svg>
             <div className="mt-3 flex justify-between text-[11px] text-slate-400">
               <span>₹0</span>
-              <span>₹1.5 Cr / mo</span>
+              <span>₹5 Cr / mo</span>
             </div>
             <div className="mt-6 grid grid-cols-4 gap-2">
               {["AMZ", "FLK", "BLK", "ZPT"].map((c) => (

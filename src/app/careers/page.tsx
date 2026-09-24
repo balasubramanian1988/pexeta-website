@@ -44,7 +44,7 @@ export default function CareersPage() {
           <h1 className="font-heading text-4xl font-extrabold text-slate-950">Careers at Pexeta</h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-600">
             We&apos;re a growing omnichannel e-commerce team based in Chennai,
-            managing ₹1.5 Cr+ in monthly revenue for 14+ brands. If you want
+            managing ₹5 Cr+ in monthly revenue for 40+ brands. If you want
             to work close to real client outcomes, we&apos;d like to hear from you.
           </p>
         </div>

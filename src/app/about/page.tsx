@@ -7,9 +7,9 @@ export const metadata: Metadata = {
 };
 
 const milestones = [
-  { label: "Brands retained", value: "14+" },
-  { label: "Revenue managed / month", value: "₹1.5 Cr+" },
-  { label: "Ad spend deployed / month", value: "₹8–10 L" },
+  { label: "Brands retained", value: "40+" },
+  { label: "Revenue managed / month", value: "₹5 Cr+" },
+  { label: "Ad spend deployed / month", value: "₹1.1 Cr+" },
 ];
 
 export default function AboutPage() {

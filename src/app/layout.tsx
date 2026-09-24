@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Analytics from "./analytics";
 
 const jakarta = Plus_Jakarta_Sans({
   variable: "--font-jakarta",
@@ -42,6 +43,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${jakarta.variable} ${inter.variable} antialiased`}>
+        <Analytics />
         <Header />
         <main>{children}</main>
         <Footer />
