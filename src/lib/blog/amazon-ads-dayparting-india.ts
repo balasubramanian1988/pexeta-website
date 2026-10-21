@@ -43,7 +43,7 @@ export const amazonAdsDayparting: BlogPost = {
     ] },
 
     { kind: "h2", text: "Step 3: automate it" },
-    { kind: "p", text: "Manually changing bids several times a day isn't practical across dozens of campaigns. Amazon's console offers rules and schedules for some adjustments; finer hour-by-hour control usually needs a tool connected to the Amazon Ads API. At Pexeta we run dayparting through our own tool across managed accounts." },
+    { kind: "p", text: "Manually changing bids several times a day isn't practical across dozens of campaigns. Amazon's console offers rules and schedules for some adjustments; finer hour-by-hour control usually needs a tool connected to the Amazon Ads API. If an agency manages your ads, ask how they handle bid scheduling across your campaigns." },
 
     { kind: "h2", text: "When dayparting helps most" },
     { kind: "table",
