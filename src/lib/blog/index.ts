@@ -18,6 +18,11 @@ import { amazonFulfilmentOptionsIndia } from "./amazon-fulfilment-options-india"
 import { amazonVsFlipkartD2c } from "./amazon-vs-flipkart-d2c-brands";
 import { sellingOnQuickCommerce } from "./selling-on-quick-commerce-india";
 import { amazonIndiaProfitPerUnit } from "./amazon-india-profit-per-unit";
+import { flipkartAdsPlaPcaGuide } from "./flipkart-ads-pla-pca-guide";
+import { winAmazonBuyBoxIndia } from "./win-amazon-buy-box-india";
+import { amazonIndiaSellerFees2026 } from "./amazon-india-seller-fees-2026";
+import { sellingOnFirstcryGuide } from "./selling-on-firstcry-guide";
+import { amazonListingSeoIndiaKeywordsTitles } from "./amazon-listing-seo-india-keywords-titles";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -30,6 +35,11 @@ const ALL: BlogPost[] = [
   amazonVsFlipkartD2c,
   sellingOnQuickCommerce,
   amazonIndiaProfitPerUnit,
+  flipkartAdsPlaPcaGuide,
+  winAmazonBuyBoxIndia,
+  amazonIndiaSellerFees2026,
+  sellingOnFirstcryGuide,
+  amazonListingSeoIndiaKeywordsTitles,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
