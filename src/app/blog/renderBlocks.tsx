@@ -69,9 +69,9 @@ export default function RenderBlocks({ blocks }: { blocks: BlogBlock[] }) {
             );
           case "faq":
             return (
-              <section key={k} className="mt-14">
+              <section key={k} className="mt-14 rounded-2xl border border-amber/40 border-t-4 border-t-amber bg-amber/5 px-5 pb-2 pt-6 sm:px-7">
                 <h2 id="faqs" className="font-heading text-2xl font-bold text-slate-950">Frequently asked questions</h2>
-                <div className="mt-5 divide-y divide-border border-y border-border">
+                <div className="mt-4 divide-y divide-border">
                   {b.items.map((f) => (
                     <details key={f.q} className="group py-4">
                       <summary className="flex cursor-pointer list-none items-start justify-between gap-4 font-semibold text-slate-950">
@@ -82,6 +82,20 @@ export default function RenderBlocks({ blocks }: { blocks: BlogBlock[] }) {
                     </details>
                   ))}
                 </div>
+              </section>
+            );
+          case "sources":
+            return (
+              <section key={k} id="sources" className="mt-8 rounded-2xl border border-border border-l-4 border-l-slate-950 bg-white px-5 py-5 sm:px-7">
+                <h2 className="font-heading text-xl font-bold text-slate-950">Sources</h2>
+                <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-slate-700">
+                  {b.items.map((src, j) => (
+                    <li key={j} className="leading-relaxed">
+                      <a href={src.url} target="_blank" rel="noopener nofollow" className="font-semibold text-slate-950 underline underline-offset-2 hover:text-amber">{src.title}</a>
+                      {src.note && <span className="text-slate-500"> — {src.note}</span>}
+                    </li>
+                  ))}
+                </ol>
               </section>
             );
         }

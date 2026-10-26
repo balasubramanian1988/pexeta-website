@@ -9,7 +9,8 @@ export type BlogBlock =
   | { kind: "ul"; items: string[] }                       // bullet list
   | { kind: "ol"; items: string[] }                       // numbered list
   | { kind: "table"; headers: string[]; rows: string[][] }
-  | { kind: "faq"; items: { q: string; a: string }[] };   // FAQ block (also feeds FAQ schema)
+  | { kind: "faq"; items: { q: string; a: string }[] }    // FAQ block (also feeds FAQ schema)
+  | { kind: "sources"; items: { title: string; url: string; note?: string }[] }; // highlighted, numbered source list
 
 export type BlogPost = {
   slug: string;
