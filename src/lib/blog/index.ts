@@ -27,6 +27,12 @@ import { globalEcommerceLogistics2026IndianSellers } from "./global-ecommerce-lo
 import { amazonAccountSuspendedReinstatementIndia } from "./amazon-account-suspended-reinstatement-india";
 import { reduceRtoCodOrdersIndia } from "./reduce-rto-cod-orders-india";
 import { gstTcsReconciliationAmazonFlipkart } from "./gst-tcs-reconciliation-amazon-flipkart-sellers";
+import { quickCommercePlatformsComparedIndia } from "./quick-commerce-platforms-compared-india";
+import { quickCommerceAdsBlinkitZeptoInstamart } from "./quick-commerce-ads-blinkit-zepto-instamart";
+import { quickCommerceMarginsFeesBrands } from "./quick-commerce-margins-fees-brands";
+import { quickCommerceListingDocumentsCompliance } from "./quick-commerce-listing-documents-compliance";
+import { quickCommerceShelfLifeRulesRejections } from "./quick-commerce-shelf-life-rules-rejections";
+import { flipkartMinutesAmazonNowForBrands } from "./flipkart-minutes-amazon-now-for-brands";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -48,6 +54,12 @@ const ALL: BlogPost[] = [
   amazonAccountSuspendedReinstatementIndia,
   reduceRtoCodOrdersIndia,
   gstTcsReconciliationAmazonFlipkart,
+  quickCommercePlatformsComparedIndia,
+  quickCommerceAdsBlinkitZeptoInstamart,
+  quickCommerceMarginsFeesBrands,
+  quickCommerceListingDocumentsCompliance,
+  quickCommerceShelfLifeRulesRejections,
+  flipkartMinutesAmazonNowForBrands,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
