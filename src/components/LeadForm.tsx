@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackLead } from "@/lib/track";
 
 const revenueBands = ["Under ₹2L", "₹2L – ₹10L", "₹10L – ₹25L", "₹25L+"];
 const channels = ["Amazon", "Flipkart", "Myntra", "FirstCry", "Blinkit", "Instamart", "Zepto", "BigBasket"];
@@ -36,6 +37,7 @@ export default function LeadForm() {
         body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error("Request failed");
+      trackLead({ form: "audit_request", revenue_band: data.revenueBand, channels: data.channels.join(",") });
       setStatus("success");
       form.reset();
       setSelectedChannels([]);
@@ -153,4 +155,3 @@ export default function LeadForm() {
     </form>
   );
 }
-// this is a sample line

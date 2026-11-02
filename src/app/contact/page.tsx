@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Mail, MapPin, Phone } from "lucide-react";
 import LeadForm from "@/components/LeadForm";
+import PhoneLink from "@/components/PhoneLink";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -21,11 +22,11 @@ export default function ContactPage() {
           <div className="mt-8 space-y-4 text-sm">
             <div className="flex items-center gap-3 text-slate-700">
               <Phone size={18} className="text-slate-400" />
-              <span>+91 87545 79898</span>
+              <PhoneLink source="contact_page" className="hover:text-slate-950 hover:underline" />
             </div>
             <div className="flex items-center gap-3 text-slate-700">
               <Mail size={18} className="text-slate-400" />
-              <span>support@pexeta.in</span>
+              <a href="mailto:support@pexeta.in" className="hover:text-slate-950 hover:underline">support@pexeta.in</a>
             </div>
             <div className="flex items-center gap-3 text-slate-700">
               <MapPin size={18} className="text-slate-400" />
