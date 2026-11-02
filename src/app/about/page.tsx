@@ -64,6 +64,7 @@ const schema = {
         addressCountry: "IN",
       },
       areaServed: { "@type": "Country", name: "India" },
+      sameAs: ["https://share.google/ML8Yb1yEIC72M7NB6"],
     },
     {
       "@type": "AboutPage",
@@ -132,10 +133,8 @@ export default function AboutPage() {
             Gandhimathi, and Jio Infocom across Tamil Nadu, with a
             consistent 20% year-on-year growth. That same operator&apos;s
             eye for distribution and sell-through now shapes how Pexeta runs
-            marketplace accounts — through Thrise.in, he has guided D2C
-            brands and SMEs through go-to-market planning, listing strategy,
-            and performance marketing across Amazon, Flipkart, Meesho, and
-            brand-owned websites.
+            marketplace accounts, from go-to-market planning and listing
+            strategy to performance marketing for D2C brands and SMEs.
           </p>
           <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">
             That founder-level operating experience is paired with over a
