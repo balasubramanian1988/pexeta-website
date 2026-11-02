@@ -3,7 +3,9 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Pexeta is an e-commerce growth agency scaling D2C and retail brands across India's marketplaces and quick-commerce apps.",
+  description:
+    "Pexeta is a Chennai-based e-commerce growth agency, founded in December 2012. We manage 40+ brands across Amazon, Flipkart, Myntra, FirstCry and quick-commerce apps.",
+  alternates: { canonical: "https://pexeta.in/about" },
 };
 
 const milestones = [
@@ -12,9 +14,74 @@ const milestones = [
   { label: "Ad spend deployed / month", value: "₹1.1 Cr+" },
 ];
 
+const FACTS: [string, string][] = [
+  ["Founded", "December 2012"],
+  ["Based in", "Chennai, Tamil Nadu"],
+  ["What we do", "E-commerce growth: marketplace and quick-commerce account management and advertising"],
+  ["Marketplaces", "Amazon, Flipkart, Myntra, FirstCry"],
+  ["Quick commerce", "Blinkit, Swiggy Instamart, Zepto, BigBasket"],
+  ["Founder", "Balasubramanian VA (MBA, IIT Madras)"],
+  ["Google rating", "5.0 from 16 reviews (November 2026)"],
+];
+
+const SERVICES = [
+  "Marketplace account management and advertising",
+  "Account health checks and reinstatement",
+  "FBA reimbursement audits",
+  "RTO audits",
+  "Monthly GST packs for your auditors",
+  "Quick commerce purchase order and operations management",
+  "Quick commerce ads audits",
+];
+
+const FAQS = [
+  { q: "What does Pexeta do?", a: "Pexeta is an e-commerce growth agency. We manage brands' accounts and advertising on Amazon, Flipkart, Myntra, FirstCry and quick-commerce apps such as Blinkit, Swiggy Instamart, Zepto and BigBasket." },
+  { q: "Where is Pexeta based?", a: "Our office is at No. 1, Kaspapuram Main Road, Kaspapuram, Chennai 600126. We work with brands across India." },
+  { q: "When was Pexeta founded?", a: "Pexeta was founded in December 2012 by Balasubramanian VA." },
+  { q: "How many brands does Pexeta manage?", a: "We retain 40+ brands, with more than ₹5 crore of monthly revenue and more than ₹1.1 crore of monthly ad spend under management." },
+  { q: "How do I contact Pexeta?", a: "Call or WhatsApp +91 87545 79898, email support@pexeta.in, or use the form on our contact page." },
+];
+
+const schema = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://pexeta.in/#organization",
+      name: "Pexeta",
+      url: "https://pexeta.in",
+      description: "E-commerce growth agency for brands on Amazon, Flipkart, Myntra, FirstCry and quick-commerce apps.",
+      foundingDate: "2012-12",
+      founder: { "@type": "Person", name: "Balasubramanian VA" },
+      telephone: "+91-8754579898",
+      email: "support@pexeta.in",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "No. 1, Kaspapuram Main Road, Kaspapuram",
+        addressLocality: "Chennai",
+        addressRegion: "Tamil Nadu",
+        postalCode: "600126",
+        addressCountry: "IN",
+      },
+      areaServed: { "@type": "Country", name: "India" },
+    },
+    {
+      "@type": "AboutPage",
+      url: "https://pexeta.in/about",
+      name: "About Pexeta",
+      mainEntity: { "@id": "https://pexeta.in/#organization" },
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: FAQS.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+    },
+  ],
+};
+
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <section className="border-b border-border bg-ice py-16">
         <div className="container-px mx-auto max-w-4xl">
           <h1 className="font-heading text-4xl font-extrabold text-slate-950">About Pexeta</h1>
@@ -34,6 +101,20 @@ export default function AboutPage() {
               <div className="mt-1 text-sm text-slate-600">{m.label}</div>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="border-t border-border py-16">
+        <div className="container-px mx-auto max-w-4xl">
+          <h2 className="font-heading text-2xl font-bold text-slate-950">Pexeta at a glance</h2>
+          <dl className="mt-6 divide-y divide-border border-y border-border">
+            {FACTS.map(([k, v]) => (
+              <div key={k} className="grid gap-1 py-3 sm:grid-cols-3">
+                <dt className="text-sm font-semibold text-slate-950">{k}</dt>
+                <dd className="text-sm text-slate-600 sm:col-span-2">{v}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 
@@ -68,6 +149,21 @@ export default function AboutPage() {
 
       <section className="py-16">
         <div className="container-px mx-auto max-w-4xl">
+          <h2 className="font-heading text-2xl font-bold text-slate-950">What we do</h2>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {SERVICES.map((s) => (
+              <li key={s} className="flex gap-2 text-slate-600"><span className="text-amber">✓</span>{s}</li>
+            ))}
+          </ul>
+          <p className="mt-6 text-slate-600">
+            See <Link href="/services/marketplaces" className="font-semibold text-slate-950 underline">marketplace growth</Link> and{" "}
+            <Link href="/services/quick-commerce" className="font-semibold text-slate-950 underline">quick commerce</Link> services.
+          </p>
+        </div>
+      </section>
+
+      <section className="border-t border-border bg-ice py-16">
+        <div className="container-px mx-auto max-w-4xl">
           <h2 className="font-heading text-2xl font-bold text-slate-950">How we work</h2>
           <p className="mt-4 max-w-2xl text-slate-600 leading-relaxed">
             Every account starts with an Amazon-first audit, because that&apos;s
@@ -82,7 +178,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 text-center">
+      <section className="py-16">
+        <div className="container-px mx-auto max-w-4xl">
+          <h2 className="font-heading text-2xl font-bold text-slate-950">Frequently asked questions</h2>
+          <div className="mt-6 divide-y divide-border border-y border-border">
+            {FAQS.map((f) => (
+              <details key={f.q} className="py-4">
+                <summary className="cursor-pointer font-semibold text-slate-950">{f.q}</summary>
+                <p className="mt-2 text-sm text-slate-600 leading-relaxed">{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-border py-16 text-center">
         <div className="container-px mx-auto max-w-2xl">
           <h2 className="font-heading text-2xl font-bold text-slate-950">Let&apos;s talk about your brand</h2>
           <Link href="/contact" className="mt-6 inline-block rounded-md bg-amber px-6 py-3.5 text-sm font-semibold text-slate-950 hover:bg-amber-dark hover:text-white">

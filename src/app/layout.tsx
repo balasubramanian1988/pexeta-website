@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     template: "%s | Pexeta",
   },
   description:
-    "Scale your brand across Amazon, Flipkart, Blinkit, and Zepto. Pexeta manages ₹1.5 Cr+ monthly revenue with proven ad yield strategies.",
+    "Scale your brand across Amazon, Flipkart, Blinkit, and Zepto. Pexeta manages ₹5 Cr+ monthly revenue for 40+ brands.",
   openGraph: {
     title: "Pexeta.in | Amazon & Omnichannel E-commerce Growth Agency",
     description:
-      "Scale your brand across Amazon, Flipkart, Blinkit, and Zepto. Pexeta manages ₹1.5 Cr+ monthly revenue with proven ad yield strategies.",
+      "Scale your brand across Amazon, Flipkart, Blinkit, and Zepto. Pexeta manages ₹5 Cr+ monthly revenue for 40+ brands.",
     url: "https://pexeta.in",
     siteName: "Pexeta",
     locale: "en_IN",
