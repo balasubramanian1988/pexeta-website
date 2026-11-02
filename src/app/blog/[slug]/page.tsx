@@ -60,6 +60,9 @@ export default async function BlogPostPage({ params }: Params) {
         }]
       : []),
   ];
+  const svc = p.category === "Quick Commerce"
+    ? { eyebrow: "Pexeta quick commerce services", heading: "Selling on Blinkit, Zepto or Instamart?", text: "We manage purchase orders, dark-store operations and ads on quick-commerce apps for brands, so you grow without losing margin.", href: "/services/quick-commerce", linkLabel: "Quick commerce services" }
+    : { eyebrow: "Pexeta marketplace services", heading: "Want us to look at your account?", text: "Get a free audit of your Amazon, Flipkart, Myntra or FirstCry account: ads, listings, account health and profitability.", href: "/services/marketplaces", linkLabel: "Marketplace services" };
   const related = POSTS.filter((x) => x.slug !== p.slug && x.category === p.category).slice(0, 2);
   const more = related.length < 2 ? POSTS.filter((x) => x.slug !== p.slug && !related.includes(x)).slice(0, 2 - related.length) : [];
 
@@ -82,13 +85,20 @@ export default async function BlogPostPage({ params }: Params) {
           <RenderBlocks blocks={p.body} />
 
           <div className="mt-14 rounded-xl bg-slate-950 p-8 text-white">
-            <div className="font-heading text-xl font-bold">Want us to look at your account?</div>
-            <p className="mt-2 text-slate-400">
-              Get a free audit of your Amazon or marketplace account: ads, listings, account health and profitability.
-            </p>
-            <Link href="/contact" className="mt-5 inline-block rounded-md bg-amber px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-amber-dark hover:text-white">
-              Get Free Audit
-            </Link>
+            <div className="text-xs font-semibold uppercase tracking-widest text-amber">{svc.eyebrow}</div>
+            <div className="mt-2 font-heading text-xl font-bold">{svc.heading}</div>
+            <p className="mt-2 text-slate-400">{svc.text}</p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <Link href="/contact" className="inline-block rounded-md bg-amber px-5 py-3 text-sm font-semibold text-slate-950 hover:bg-amber-dark hover:text-white">
+                Get Free Audit
+              </Link>
+              <Link href={svc.href} className="inline-block rounded-md border border-slate-600 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-800">
+                {svc.linkLabel}
+              </Link>
+              <Link href="/case-studies" className="inline-block px-2 py-3 text-sm font-semibold text-slate-300 underline hover:text-white">
+                See client results
+              </Link>
+            </div>
           </div>
 
           {[...related, ...more].length > 0 && (
