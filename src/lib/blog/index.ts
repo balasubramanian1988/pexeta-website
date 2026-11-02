@@ -33,6 +33,7 @@ import { quickCommerceMarginsFeesBrands } from "./quick-commerce-margins-fees-br
 import { quickCommerceListingDocumentsCompliance } from "./quick-commerce-listing-documents-compliance";
 import { quickCommerceShelfLifeRulesRejections } from "./quick-commerce-shelf-life-rules-rejections";
 import { flipkartMinutesAmazonNowForBrands } from "./flipkart-minutes-amazon-now-for-brands";
+import { quickCommerceStockPlanningCityWise } from "./quick-commerce-stock-planning-city-wise";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -60,6 +61,7 @@ const ALL: BlogPost[] = [
   quickCommerceListingDocumentsCompliance,
   quickCommerceShelfLifeRulesRejections,
   flipkartMinutesAmazonNowForBrands,
+  quickCommerceStockPlanningCityWise,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
