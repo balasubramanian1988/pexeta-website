@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { POSTS } from "@/lib/blog";
+import { WHITEPAPERS } from "@/lib/whitepapers";
 
 const routes = [
   "",
@@ -11,6 +12,7 @@ const routes = [
   "/careers",
   "/contact",
   "/blog",
+  "/whitepapers",
   "/privacy-policy",
   "/terms",
   "/refund-policy",
@@ -29,5 +31,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly",
     priority: 0.7,
   }));
-  return [...pages, ...posts];
+  const papers: MetadataRoute.Sitemap = WHITEPAPERS.map((w) => ({
+    url: `https://pexeta.in/whitepapers/${w.slug}`,
+    lastModified: new Date(w.dateModified),
+    changeFrequency: "monthly",
+    priority: 0.8,
+  }));
+  return [...pages, ...posts, ...papers];
 }

@@ -21,7 +21,7 @@ export default function Header() {
           <Image src="/pexeta-logo.png" alt="Pexeta" width={130} height={46} priority className="h-9 w-auto md:h-10" />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 whitespace-nowrap lg:flex xl:gap-8">
           <div
             className="relative"
             onMouseEnter={() => setServicesOpen(true)}
@@ -59,12 +59,15 @@ export default function Header() {
           <Link href="/blog" className="text-[15px] font-medium text-slate-800 hover:text-slate-950">
             Blog
           </Link>
+          <Link href="/whitepapers" className="text-[15px] font-medium text-slate-800 hover:text-slate-950">
+            White Papers
+          </Link>
           <Link href="/careers" className="text-[15px] font-medium text-slate-800 hover:text-slate-950">
             Careers
           </Link>
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Link
             href="/contact"
             className="rounded-md bg-amber px-4 py-2.5 text-sm font-semibold text-slate-950 hover:bg-amber-dark hover:text-white"
@@ -74,7 +77,7 @@ export default function Header() {
         </div>
 
         <button
-          className="md:hidden"
+          className="lg:hidden"
           aria-label="Toggle menu"
           onClick={() => setMobileOpen((v) => !v)}
         >
@@ -83,7 +86,7 @@ export default function Header() {
       </div>
 
       {mobileOpen && (
-        <div className="border-t border-border bg-white md:hidden">
+        <div className="border-t border-border bg-white lg:hidden">
           <div className="container-px mx-auto flex flex-col gap-1 py-3">
             {serviceLinks.map((s) => (
               <Link key={s.href} href={s.href} className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
@@ -101,6 +104,9 @@ export default function Header() {
             </Link>
             <Link href="/blog" className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
               Blog
+            </Link>
+            <Link href="/whitepapers" className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
+              White Papers
             </Link>
             <Link href="/careers" className="py-2 text-slate-800" onClick={() => setMobileOpen(false)}>
               Careers

@@ -1,6 +1,7 @@
 // app/llms.txt/route.ts: plain-text summary of the site for AI assistants (llmstxt.org format).
 // Built from lib/blog, so new posts appear automatically.
 import { POSTS } from "@/lib/blog";
+import { WHITEPAPERS } from "@/lib/whitepapers";
 
 export const dynamic = "force-static";
 
@@ -23,6 +24,9 @@ export function GET() {
     `- [Contact](${BASE}/contact)`,
     "",
     "Also offered: account health checks and reinstatement, FBA reimbursement audits, RTO audits, monthly GST packs for auditors, and quick commerce ads audits.",
+    "",
+    "## White papers",
+    ...WHITEPAPERS.map((w) => `- [${w.title}](${BASE}/whitepapers/${w.slug}): ${w.excerpt}`),
     "",
     "## Guides",
     ...POSTS.map((p) => `- [${p.title}](${BASE}/blog/${p.slug}): ${p.excerpt}`),
