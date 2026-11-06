@@ -36,6 +36,7 @@ import { flipkartMinutesAmazonNowForBrands } from "./flipkart-minutes-amazon-now
 import { quickCommerceStockPlanningCityWise } from "./quick-commerce-stock-planning-city-wise";
 import { quickCommerceProductAvailability } from "./quick-commerce-product-availability-in-stock-rates";
 import { quickCommercePoFillRates } from "./quick-commerce-po-fill-rates-dark-stores";
+import { costOfStockoutsAmazonIndia } from "./cost-of-stockouts-amazon-india";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -66,6 +67,7 @@ const ALL: BlogPost[] = [
   quickCommerceStockPlanningCityWise,
   quickCommerceProductAvailability,
   quickCommercePoFillRates,
+  costOfStockoutsAmazonIndia,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
