@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: { absolute: w.titleTag },
     description: w.metaDescription,
     keywords: w.keywords,
-    alternates: { canonical: `https://pexeta.in/whitepapers/${w.slug}` },
+    alternates: { canonical: `https://www.pexeta.in/whitepapers/${w.slug}` },
     openGraph: {
       title: w.title,
       description: w.metaDescription,
-      url: `https://pexeta.in/whitepapers/${w.slug}`,
+      url: `https://www.pexeta.in/whitepapers/${w.slug}`,
       type: "article",
       publishedTime: w.datePublished,
       modifiedTime: w.dateModified,
@@ -47,9 +47,9 @@ export default async function WhitePaperPage({ params }: Params) {
     description: w.metaDescription,
     datePublished: w.datePublished,
     dateModified: w.dateModified,
-    author: { "@type": "Organization", name: "Pexeta", url: "https://pexeta.in" },
-    publisher: { "@type": "Organization", name: "Pexeta", logo: { "@type": "ImageObject", url: "https://pexeta.in/pexeta-logo.png" } },
-    mainEntityOfPage: `https://pexeta.in/whitepapers/${w.slug}`,
+    author: { "@type": "Organization", name: "Pexeta", url: "https://www.pexeta.in" },
+    publisher: { "@type": "Organization", name: "Pexeta", logo: { "@type": "ImageObject", url: "https://www.pexeta.in/pexeta-logo.png" } },
+    mainEntityOfPage: `https://www.pexeta.in/whitepapers/${w.slug}`,
   };
 
   return (

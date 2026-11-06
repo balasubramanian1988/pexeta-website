@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "E-commerce Growth Blog: Amazon, Flipkart and Quick Commerce",
   description:
     "Practical guides for Indian brands selling on Amazon, Flipkart, Blinkit, Zepto and Instamart: ads, account health, listings, profitability and growth strategy. By Pexeta.",
-  alternates: { canonical: "https://pexeta.in/blog" },
+  alternates: { canonical: "https://www.pexeta.in/blog" },
   openGraph: {
     title: "Pexeta Blog | Amazon and Quick-Commerce Growth Guides",
     description: "Practical guides for Indian brands selling on Amazon, Flipkart and quick-commerce apps.",
-    url: "https://pexeta.in/blog",
+    url: "https://www.pexeta.in/blog",
     type: "website",
   },
 };

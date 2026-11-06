@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "About Us",
   description:
     "Pexeta is a Chennai-based e-commerce growth agency, founded in December 2012. We manage 40+ brands across Amazon, Flipkart, Myntra, FirstCry and quick-commerce apps.",
-  alternates: { canonical: "https://pexeta.in/about" },
+  alternates: { canonical: "https://www.pexeta.in/about" },
 };
 
 const milestones = [
@@ -47,9 +47,9 @@ const schema = {
   "@graph": [
     {
       "@type": "ProfessionalService",
-      "@id": "https://pexeta.in/#organization",
+      "@id": "https://www.pexeta.in/#organization",
       name: "Pexeta",
-      url: "https://pexeta.in",
+      url: "https://www.pexeta.in",
       description: "E-commerce growth agency for brands on Amazon, Flipkart, Myntra, FirstCry and quick-commerce apps.",
       foundingDate: "2012-12",
       founder: { "@type": "Person", name: "Balasubramanian VA" },
@@ -68,9 +68,9 @@ const schema = {
     },
     {
       "@type": "AboutPage",
-      url: "https://pexeta.in/about",
+      url: "https://www.pexeta.in/about",
       name: "About Pexeta",
-      mainEntity: { "@id": "https://pexeta.in/#organization" },
+      mainEntity: { "@id": "https://www.pexeta.in/#organization" },
     },
     {
       "@type": "FAQPage",

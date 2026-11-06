@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pexeta.in"),
+  metadataBase: new URL("https://www.pexeta.in"),
   title: {
     default: "Pexeta.in | Amazon & Omnichannel E-commerce Growth Agency",
     template: "%s | Pexeta",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     title: "Pexeta.in | Amazon & Omnichannel E-commerce Growth Agency",
     description:
       "Scale your brand across Amazon, Flipkart, Blinkit, and Zepto. Pexeta manages ₹5 Cr+ monthly revenue for 40+ brands.",
-    url: "https://pexeta.in",
+    url: "https://www.pexeta.in",
     siteName: "Pexeta",
     locale: "en_IN",
     type: "website",

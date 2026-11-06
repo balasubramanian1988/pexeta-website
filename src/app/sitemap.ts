@@ -20,19 +20,19 @@ const routes = [
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const pages: MetadataRoute.Sitemap = routes.map((route) => ({
-    url: `https://pexeta.in${route}`,
+    url: `https://www.pexeta.in${route}`,
     lastModified: new Date(),
     changeFrequency: route === "" || route === "/blog" ? "weekly" : "monthly",
     priority: route === "" ? 1 : 0.7,
   }));
   const posts: MetadataRoute.Sitemap = POSTS.map((p) => ({
-    url: `https://pexeta.in/blog/${p.slug}`,
+    url: `https://www.pexeta.in/blog/${p.slug}`,
     lastModified: new Date(p.dateModified),
     changeFrequency: "monthly",
     priority: 0.7,
   }));
   const papers: MetadataRoute.Sitemap = WHITEPAPERS.map((w) => ({
-    url: `https://pexeta.in/whitepapers/${w.slug}`,
+    url: `https://www.pexeta.in/whitepapers/${w.slug}`,
     lastModified: new Date(w.dateModified),
     changeFrequency: "monthly",
     priority: 0.8,

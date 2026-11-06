@@ -5,7 +5,7 @@ import { WHITEPAPERS } from "@/lib/whitepapers";
 
 export const dynamic = "force-static";
 
-const BASE = "https://pexeta.in";
+const BASE = "https://www.pexeta.in";
 
 export function GET() {
   const lines: string[] = [

@@ -7,11 +7,11 @@ export const metadata: Metadata = {
   title: "White Papers: Research for Indian Marketplace Sellers",
   description:
     "In-depth, fully sourced Pexeta white papers on selling on Amazon, Flipkart and quick commerce in India: market changes, data and practical playbooks.",
-  alternates: { canonical: "https://pexeta.in/whitepapers" },
+  alternates: { canonical: "https://www.pexeta.in/whitepapers" },
   openGraph: {
     title: "Pexeta White Papers | Research for Indian Marketplace Sellers",
     description: "In-depth, fully sourced research on selling on Amazon, Flipkart and quick commerce in India.",
-    url: "https://pexeta.in/whitepapers",
+    url: "https://www.pexeta.in/whitepapers",
     type: "website",
   },
 };

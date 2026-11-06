@@ -19,11 +19,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: { absolute: p.titleTag },
     description: p.metaDescription,
     keywords: p.keywords,
-    alternates: { canonical: `https://pexeta.in/blog/${p.slug}` },
+    alternates: { canonical: `https://www.pexeta.in/blog/${p.slug}` },
     openGraph: {
       title: p.title,
       description: p.metaDescription,
-      url: `https://pexeta.in/blog/${p.slug}`,
+      url: `https://www.pexeta.in/blog/${p.slug}`,
       type: "article",
       publishedTime: p.datePublished,
       modifiedTime: p.dateModified,
@@ -48,9 +48,9 @@ export default async function BlogPostPage({ params }: Params) {
       description: p.metaDescription,
       datePublished: p.datePublished,
       dateModified: p.dateModified,
-      author: { "@type": "Organization", name: p.author, url: "https://pexeta.in" },
-      publisher: { "@type": "Organization", name: "Pexeta", logo: { "@type": "ImageObject", url: "https://pexeta.in/pexeta-logo.png" } },
-      mainEntityOfPage: `https://pexeta.in/blog/${p.slug}`,
+      author: { "@type": "Organization", name: p.author, url: "https://www.pexeta.in" },
+      publisher: { "@type": "Organization", name: "Pexeta", logo: { "@type": "ImageObject", url: "https://www.pexeta.in/pexeta-logo.png" } },
+      mainEntityOfPage: `https://www.pexeta.in/blog/${p.slug}`,
     },
     ...(faq && faq.kind === "faq"
       ? [{
