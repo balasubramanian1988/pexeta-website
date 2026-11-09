@@ -39,6 +39,7 @@ import { quickCommercePoFillRates } from "./quick-commerce-po-fill-rates-dark-st
 import { costOfStockoutsAmazonIndia } from "./cost-of-stockouts-amazon-india";
 import { recoverFbaReimbursements } from "./recover-fba-reimbursements-lost-damaged-inventory";
 import { flipkartZeroCommission } from "./flipkart-zero-commission-what-sellers-still-pay";
+import { sellingOnMeeshoGuide } from "./selling-on-meesho-zero-commission-guide";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -72,6 +73,7 @@ const ALL: BlogPost[] = [
   costOfStockoutsAmazonIndia,
   recoverFbaReimbursements,
   flipkartZeroCommission,
+  sellingOnMeeshoGuide,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
