@@ -41,6 +41,7 @@ import { recoverFbaReimbursements } from "./recover-fba-reimbursements-lost-dama
 import { flipkartZeroCommission } from "./flipkart-zero-commission-what-sellers-still-pay";
 import { sellingOnMeeshoGuide } from "./selling-on-meesho-zero-commission-guide";
 import { sellingOnMyntraGuide } from "./selling-on-myntra-models-fees-zero-commission";
+import { legalMetrologyOnlineSellers } from "./legal-metrology-rules-online-sellers-listing-labels";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -76,6 +77,7 @@ const ALL: BlogPost[] = [
   flipkartZeroCommission,
   sellingOnMeeshoGuide,
   sellingOnMyntraGuide,
+  legalMetrologyOnlineSellers,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
