@@ -3,7 +3,7 @@ import type { BlogPost } from "./types";
 export const sellingOnQuickCommerce: BlogPost = {
   slug: "selling-on-blinkit-zepto-instamart-guide",
   title: "Selling on Blinkit, Zepto and Instamart: A Brand's Guide to Quick Commerce",
-  titleTag: "How to Sell on Blinkit, Zepto and Instamart: Quick Commerce Guide for Brands",
+  titleTag: "How to Sell on Blinkit, Zepto & Instamart (2026): Guide for Brands",
   metaDescription:
     "How quick commerce works for brands in India: onboarding on Blinkit, Zepto and Swiggy Instamart, dark-store supply, documents, margins, ads and the metrics that decide your rank.",
   excerpt:
@@ -11,7 +11,7 @@ export const sellingOnQuickCommerce: BlogPost = {
   category: "Quick Commerce",
   author: "Pexeta Team",
   datePublished: "2026-10-13",
-  dateModified: "2026-10-13",
+  dateModified: "2026-11-12",
   readMinutes: 8,
   keywords: ["sell on blinkit", "sell on zepto", "instamart seller", "quick commerce india brands"],
   verifyNote: "Platform onboarding models change frequently — keep this guide principle-based; re-check before adding platform-specific terms.",

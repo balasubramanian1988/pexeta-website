@@ -3,19 +3,23 @@ import type { BlogPost } from "./types";
 export const amazonSponsoredAdsTypes: BlogPost = {
   slug: "amazon-sponsored-products-brands-display-guide",
   title: "Sponsored Products, Sponsored Brands or Sponsored Display: Which Amazon Ad Should You Use?",
-  titleTag: "Sponsored Products vs Sponsored Brands vs Sponsored Display | Amazon India",
+  titleTag: "Sponsored Products vs Sponsored Brands vs Display: Amazon India Guide (2026)",
   metaDescription:
-    "A plain-English guide to Amazon's three main ad types for Indian sellers: what each does, who can use it, where it appears and how to split your budget between them.",
+    "What are Amazon Sponsored Products, and how do they differ from Sponsored Brands and Sponsored Display? A plain-English guide for Indian sellers: what each does, who can use it and how to split your budget.",
   excerpt:
     "Amazon gives you three main ad formats, and each does a different job. Here's when to use Sponsored Products, Sponsored Brands and Sponsored Display, and how to split your budget.",
   category: "Amazon Ads",
   author: "Pexeta Team",
   datePublished: "2026-10-20",
-  dateModified: "2026-10-20",
+  dateModified: "2026-11-12",
   readMinutes: 7,
   keywords: ["sponsored products vs sponsored brands", "sponsored display amazon india", "amazon ads types", "amazon advertising india guide"],
   body: [
     { kind: "p", text: "Amazon's self-serve advertising has three main formats. They look similar in the console, but they reach shoppers at different moments and suit different goals. Using the right mix is usually worth more than squeezing another few points out of a single campaign type." },
+
+    { kind: "h2", text: "What are Sponsored Products?" },
+    { kind: "p", text: "**Sponsored Products are cost-per-click ads that promote an individual product listing on Amazon.** They can appear at the top of, alongside or within shopping results and on product detail pages, on desktop and mobile, and a click takes the shopper straight to your product page. You pay only when someone clicks. You need a Professional selling account, and the product must be in stock and eligible to be the Featured Offer (the Buy Box); you don't need Brand Registry." },
+    { kind: "quote", text: "Judging your ads? **ACoS** is ad spend divided by the sales your ads generated; **TACoS** is ad spend divided by your total sales, including organic orders. Track both — see our [ACoS vs TACoS guide](/blog/acos-vs-tacos-amazon-india) with worked examples in rupees." },
 
     { kind: "h2", text: "At a glance" },
     { kind: "table",
@@ -59,9 +63,19 @@ export const amazonSponsoredAdsTypes: BlogPost = {
     { kind: "p", text: "Then let performance decide. Shift budget towards whichever format delivers the best results against your [ACoS and TACoS targets](/blog/acos-vs-tacos-amazon-india)." },
 
     { kind: "faq", items: [
+      { q: "What are Sponsored Products on Amazon?", a: "Cost-per-click ads that promote a single product listing. They appear in search results and on product pages with a 'Sponsored' label, and you pay only when someone clicks." },
       { q: "Do I need Brand Registry to advertise on Amazon India?", a: "Not for Sponsored Products. Sponsored Brands and Sponsored Display require Amazon Brand Registry for sellers." },
       { q: "Which Amazon ad type should a new seller start with?", a: "Sponsored Products. Start with an automatic campaign to learn search terms, then build manual campaigns around the ones that convert." },
       { q: "Are Sponsored Brands ads worth it for small brands?", a: "Often yes, especially on mid-volume category keywords where they introduce your brand and range at the top of the page. Start with a modest budget and measure new-to-brand sales." },
+    ] },
+
+    { kind: "sources", items: [
+      { title: "Amazon Ads — Sponsored Products", url: "https://advertising.amazon.com/solutions/products/sponsored-products", note: "What Sponsored Products are, where they appear and cost-per-click pricing" },
+      { title: "Amazon Ads — Frequently asked questions", url: "https://advertising.amazon.com/en-ca/resources/faq", note: "Eligibility: active Professional seller account" },
+      { title: "Amazon Seller Central — Sponsored ads and the Featured Offer", url: "https://sp.amazon.com", note: "A product must be eligible to be the Featured Offer to appear in a sponsored ad" },
+      { title: "Amazon Ads — What is advertising cost of sales (ACOS)?", url: "https://advertising.amazon.com/library/guides/acos-advertising-cost-of-sales", note: "ACOS definition and formula" },
+      { title: "Amazon Ads — Sponsored Brands", url: "https://advertising.amazon.com/solutions/products/sponsored-brands", note: "Sponsored Brands formats and Brand Registry requirement" },
+      { title: "Amazon Ads — Sponsored Display", url: "https://advertising.amazon.com/solutions/products/sponsored-display", note: "Audience and product targeting, on and off Amazon" },
     ] },
   ],
 };
