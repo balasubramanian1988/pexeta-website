@@ -1,0 +1,172 @@
+import type { WhitePaper } from "./types";
+
+export const agenticCommerceOmnichannelIndia: WhitePaper = {
+  slug: "agentic-commerce-omnichannel-growth-india-2026",
+  title: "The Agentic Commerce Frontier",
+  subtitle: "AI agents, marketplaces and quick commerce: what Indian brands should build in 2026",
+  titleTag: "Agentic Commerce and Omnichannel Growth for Indian Brands (2026) | Pexeta White Paper",
+  metaDescription:
+    "What agentic commerce means for Indian brands in 2026: the new agent protocols, UPI agentic payments, quick commerce, catalogue data, the rules that apply, and a 90-day plan.",
+  excerpt:
+    "AI agents are starting to search, compare and buy on shoppers' behalf. What has actually launched, what the forecasts say, which rules apply, and a 90-day plan for brands selling on marketplaces, quick commerce and their own sites.",
+  author: "Balasubramanian VA, Pexeta",
+  datePublished: "2026-11-13",
+  dateModified: "2026-11-13",
+  readMinutes: 14,
+  keywords: [
+    "agentic commerce India",
+    "AI shopping agents",
+    "UPI agentic payments",
+    "Agentic Commerce Protocol",
+    "Universal Commerce Protocol",
+    "Model Context Protocol ecommerce",
+    "quick commerce strategy",
+    "omnichannel ecommerce India",
+  ],
+  body: [
+    { kind: "h2", text: "Executive summary" },
+    { kind: "p", text: "Online shopping has used AI for years to recommend products. What is new is AI that acts: agents that take a shopper's request, compare options across stores and, within limits the shopper sets, complete the purchase. Between September 2025 and January 2026, OpenAI, Google, Shopify and Stripe released open protocols for this, and India began piloting agent-initiated payments on UPI. For brands, the practical question is no longer whether agents will matter, but whether their product data, stock and prices are ready to be read and trusted by them." },
+    { kind: "h3", text: "Key findings" },
+    { kind: "ul", items: [
+      "**The infrastructure is real, but early.** The Agentic Commerce Protocol (OpenAI and Stripe, September 2025), the Agent Payments Protocol (Google, September 2025) and the Universal Commerce Protocol (Google and Shopify, January 2026) all launched within five months. In India, NPCI, Razorpay and OpenAI began piloting agentic payments on UPI in October 2025.",
+      "**Forecasts are large; current volumes are not yet measured in India.** McKinsey projects that AI agents could orchestrate $3 trillion to $5 trillion of global B2C retail revenue by 2030. In the US, Adobe measured traffic from generative AI sources to retail sites up 693.4% year on year in the 2025 holiday season, from a small base. We found no comparable published figures for Indian marketplaces.",
+      "**Quick commerce is now a core channel, not an experiment.** CareEdge estimates India's quick commerce market at around ₹64,000 crore of gross order value in FY25, and Blinkit alone reported 2,751 dark stores at the end of September 2026.",
+      "**Clean, consistent product data is the common requirement.** Marketplace assistants, external AI agents and quick commerce apps all depend on accurate attributes, prices and stock. Fixing this helps every channel at once.",
+      "**The rules are tightening in specific places.** India's DPDP Rules phase in through May 2027, the CCPA's dark-patterns guidelines already apply to pricing and offers, and the EU AI Act's transparency duties for AI-generated content apply from August 2026 for brands selling into Europe.",
+    ] },
+    { kind: "h3", text: "Five actions for brands" },
+    { kind: "ol", items: [
+      "Build one master product record per SKU and make every channel match it.",
+      "Make your own website readable by machines: structured product data, accurate stock and clear policies.",
+      "Choose a short list of high-velocity SKUs for quick commerce and plan stock city by city.",
+      "Manage marketplace advertising against total sales, not ad-attributed sales alone.",
+      "Put consent, data handling and honest pricing in place before scaling automation.",
+    ] },
+
+    { kind: "h2", text: "1. What agentic commerce means" },
+    { kind: "p", text: "E-commerce technology has moved in steps: from catalogues on the web, to mobile and social shopping, to machine-learning recommendations. In each step, the shopper still did the searching, comparing and checking out. Agentic commerce changes who does that work. A shopper describes a need, for example \"restock the usual snacks and detergent before Friday, under ₹2,000\", and an AI agent searches, compares prices, delivery times and return policies, and buys within limits the shopper has approved." },
+    { kind: "p", text: "Three kinds of agent matter to brands:" },
+    { kind: "table", headers: ["Agent type", "Who runs it", "Examples", "What it means for a brand"], rows: [
+      ["Marketplace assistants", "The marketplace", "Amazon's Rufus, Flipkart's assistants", "Your listing, reviews and Q&A decide whether you are recommended. See our earlier paper on [AI shopping assistants in India](/whitepapers/ai-shopping-assistants-marketplace-selling-india)."],
+      ["General-purpose AI agents", "AI companies", "ChatGPT Instant Checkout, Google's AI Mode and Gemini", "They read your website and product feeds and, increasingly, check out through standard protocols."],
+      ["Seller-side agents", "The brand or its partners", "Catalogue, pricing, advertising and replenishment tools", "They speed up operations, but need clean data and human review to be safe."],
+    ] },
+    { kind: "p", text: "The scale expected is large but still a forecast. McKinsey estimates that by 2030 AI agents could orchestrate $900 billion to $1 trillion of US B2C retail revenue, and $3 trillion to $5 trillion globally ([McKinsey, October 2025](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants)). The best measured data today is from the US: in the 2025 holiday season, US online spending reached a record $257.8 billion, and traffic to US retail sites from generative AI sources rose 693.4% year on year ([Adobe, January 2026](https://news.adobe.com/news/2026/01/adobe-holiday-shopping-season)). Neither figure measures India." },
+
+    { kind: "h2", text: "2. The new plumbing: protocols and payments" },
+    { kind: "p", text: "For an agent to buy from a store, both sides need a common language for product data, carts, checkout and payment authority. Several open standards appeared in quick succession:" },
+    { kind: "table", headers: ["Standard or pilot", "Backed by", "Launched", "What it does"], rows: [
+      ["[Model Context Protocol (MCP)](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)", "Created by Anthropic; donated to the Agentic AI Foundation, a directed fund under the Linux Foundation co-founded by Anthropic, Block and OpenAI", "Donated 9 Dec 2025", "A standard way for AI assistants to connect to outside tools and data, such as a product catalogue or order system"],
+      ["[Agentic Commerce Protocol (ACP)](https://openai.com/index/buy-it-in-chatgpt/)", "OpenAI and Stripe", "29 Sep 2025", "Open standard behind Instant Checkout in ChatGPT; launched with US Etsy sellers"],
+      ["[Agent Payments Protocol (AP2)](https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol)", "Google, with more than 60 organisations", "16 Sep 2025", "Uses cryptographically signed \"mandates\" to prove what a shopper authorised an agent to buy"],
+      ["[Universal Commerce Protocol (UCP)](https://www.shopify.com/news/ai-commerce-at-scale)", "Google and Shopify, endorsed by 20+ retailers", "11 Jan 2026", "A common way for AI surfaces to discover products and complete checkout with merchants"],
+      ["[UPI agentic payments pilot](https://techcrunch.com/2025/10/09/india-pilots-ai-chatbot-led-e-commerce-with-chatgpt-gemini-claude-in-the-mix)", "NPCI, Razorpay and OpenAI, with Axis Bank and Airtel Payments Bank", "Announced 9 Oct 2025", "Shoppers pay inside ChatGPT using UPI Reserve Pay, which blocks funds for future payments to a chosen merchant; early merchants include BigBasket and Vi"],
+    ] },
+    { kind: "p", text: "Two points for Indian brands:" },
+    { kind: "ul", items: [
+      "**On marketplaces, the marketplace decides.** Sellers on Amazon and Flipkart cannot plug these protocols into the marketplace themselves. What they control is the listing data the marketplace's own assistant reads.",
+      "**On your own website, you decide.** A brand's own store can expose product data and checkout to outside agents. Platforms such as Shopify are adding protocol support, so for many brands this is a configuration choice rather than a custom build. Payments still follow Indian rules on authentication, which is why the UPI pilot uses pre-authorised limits rather than unrestricted spending.",
+    ] },
+
+    { kind: "h2", text: "3. Discovery: from keywords to answers" },
+    { kind: "p", text: "Shoppers increasingly ask AI tools such as ChatGPT, Gemini and Perplexity what to buy, and get a short answer instead of a page of links. Optimising for these answers is often called answer engine optimisation (AEO). It overlaps with good SEO, but puts more weight on facts that a machine can read and check:" },
+    { kind: "ul", items: [
+      "**Structured product data.** Use schema.org Product markup (in JSON-LD) on your website for name, brand, variants, price, availability, GTIN and return policy, and keep it in sync with stock.",
+      "**The same facts everywhere.** When size, material, pack quantity or warranty differs between Amazon, Flipkart, quick commerce apps and your own site, an agent has no reliable answer to give. Consistent facts make a product easier to recommend.",
+      "**Specific claims, backed up.** Certifications, test results and compatibility lists, stated plainly and with proof where possible, are more useful to an agent than marketing adjectives.",
+    ] },
+
+    { kind: "h2", text: "4. Marketplaces and quick commerce in India" },
+    { kind: "h3", text: "4.1 Amazon and Flipkart" },
+    { kind: "p", text: "Large marketplaces remain where most Indian brands win or lose volume, and their own assistants are becoming part of search. Three operating disciplines matter most:" },
+    { kind: "ul", items: [
+      "**Advertising measured against total sales.** ACoS (advertising cost of sales) measures ad spend against ad-attributed sales; TACoS (total advertising cost of sales) measures it against all sales. Tracking TACoS shows whether advertising is building organic sales or simply buying them (see [ACoS vs TACoS](/blog/acos-vs-tacos-amazon-india)). The right level depends on category margins and growth stage, so set targets per brand rather than copying a benchmark.",
+      "**Campaign structure.** Separate brand-defence, category and competitor-targeting campaigns, use negative keywords to cut wasted spend, and combine Sponsored Products, Sponsored Brands and Sponsored Display around the search terms that matter most.",
+      "**Listings that answer questions.** Complete attributes, clear images and A+ content, kept consistent with the brand's own site, serve both shoppers and AI assistants.",
+    ] },
+    { kind: "p", text: "Inventory placement also affects margins. In the US, Amazon has charged an FBA inbound placement service fee since March 2024 ([Supply Chain Dive](https://www.supplychaindive.com/news/amazon-2024-fba-seller-fees-inventory-inbound-transportation/701713/)). We found no equivalent fee on [Amazon.in's published fee schedule](https://sell.amazon.in/fees-and-pricing/fee-schedule); in India, the main cost of poor placement is slower delivery promises and lost sales in under-stocked regions." },
+    { kind: "h3", text: "4.2 Quick commerce" },
+    { kind: "p", text: "Blinkit, Zepto and Swiggy Instamart have made 10–20 minute delivery normal in large Indian cities. CareEdge estimates the market at around ₹64,000 crore of gross order value in FY25, roughly double the previous year, and projects about ₹2 lakh crore by FY28 ([CareEdge Research, July 2025](https://www.careratings.com/uploads/newsfiles/1752146049_India%E2%80%99s%20Q-commerce%20Market%20-%20CareEdge%20Advisory%20Report.pdf)). Blinkit reported 2,751 dark stores and net order value up 79.3% year on year in July–September 2026 ([Kotak Neo](https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/), [Angel One](https://www.angelone.in/news/stocks/eternal-share-price-gains-2-7-as-blinkit-net-order-value-jumps-79-3-in-q2-fy27))." },
+    { kind: "ul", items: [
+      "**A short, fast-moving range.** Dark stores carry limited assortments. Focus on the SKUs that sell fastest, in pack sizes suited to top-up buying.",
+      "**City-level stock planning.** Demand shifts with weather, festivals and local events. Plan stock and purchase orders by city and dark-store cluster, not only nationally.",
+      "**Price discipline across channels.** Deep quick commerce discounts can pull sales away from marketplaces and from your own subscriptions. Set channel price and promotion rules centrally.",
+      "**A route back to your own channel.** QR codes on packs and inserts can bring quick commerce buyers to your website for subscriptions, bundles and loyalty, where you hold the customer relationship.",
+    ] },
+
+    { kind: "h2", text: "5. AI inside the brand: catalogue, pricing and stock" },
+    { kind: "p", text: "The biggest near-term gains for most brands come from AI used in their own operations, not from shopper-facing agents." },
+    { kind: "table", headers: ["Area", "What AI can do", "Where people still need to check"], rows: [
+      ["Catalogue content", "Draft titles, bullets, attributes and translations from spec sheets; flag mismatches between channels, broken variants and outdated images", "Claims, compliance details (including Legal Metrology declarations) and anything a customer could rely on"],
+      ["Pricing and promotions", "Track competitor prices and stock, suggest bundles and offers, and model how price changes affect volume", "Price floors, MAP policy, and honesty of offers under the CCPA dark-patterns guidelines"],
+      ["Demand and replenishment", "Combine sales history, seasonality, campaign calendars and supplier lead times to suggest reorder points and draft purchase orders", "Approval of purchase orders and allocation between channels"],
+      ["Advertising", "Adjust bids and budgets within rules, and surface wasted spend", "Strategy, budgets and TACoS targets"],
+    ] },
+    { kind: "p", text: "Personalised pricing deserves particular care. Charging different shoppers different prices based on their behaviour raises fairness and consumer-protection questions, and is hard to explain to customers. Most brands are better served by dynamic pricing at the product and channel level than at the individual level." },
+
+    { kind: "h2", text: "6. The technology foundation" },
+    { kind: "p", text: "Selling across marketplaces, quick commerce, a D2C site and B2B channels works best when one shared layer holds the facts every channel uses:" },
+    { kind: "table", headers: ["Layer", "What it holds", "Why it matters"], rows: [
+      ["Product information", "One master record per SKU: attributes, content, images, compliance details", "Every channel and every agent reads the same facts"],
+      ["Inventory", "Stock by warehouse, dark-store cluster and channel", "Agents and marketplaces won't recommend what they can't deliver"],
+      ["Pricing and promotions", "Channel prices, MAP rules, promotion calendar", "Prevents channels undercutting each other"],
+      ["Customer data", "First-party data with consent records", "Personalisation and retention without breaching DPDP"],
+      ["Channel connections", "Marketplace and quick commerce integrations, website storefront, B2B ordering", "Changes in one place reach every channel"],
+    ] },
+    { kind: "p", text: "Larger brands often build this with a composable or headless architecture, where the storefront is separate from the commerce back end and systems talk through APIs (sometimes called MACH: microservices, API-first, cloud-native, headless) ([Elastic Path](https://www.elasticpath.com/blog/b2b-ecommerce-trends)). Smaller brands can get most of the benefit from a good product information sheet, an inventory tool connected to their channels, and a well-structured website. Speed matters either way: agents query stock, prices and delivery estimates in real time, and slow or stale answers count against you." },
+
+    { kind: "h2", text: "7. Rules and risks" },
+    { kind: "table", headers: ["Rule", "Status", "What it means for a brand"], rows: [
+      ["India: Digital Personal Data Protection Act, 2023 and DPDP Rules, 2025", "Rules notified November 2025; consent manager provisions after one year; most obligations after 18 months, from May 2027 ([PIB](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf))", "Plan consent notices, security safeguards and deletion for data you collect on your website, WhatsApp and CRM"],
+      ["India: [Guidelines for Prevention and Regulation of Dark Patterns, 2023](https://www.scconline.com/blog/post/2023/12/04/ccpa-notifies-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-legal-news/)", "In force since 30 Nov 2023", "Automated pricing and offers must avoid false urgency, drip pricing, bait and switch and the other specified patterns"],
+      ["EU: AI Act, Article 50 transparency", "Applies from 2 Aug 2026; providers of systems already on the market have until 2 Dec 2026 to add machine-readable marking of AI-generated content ([Jones Walker](https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html), [Gibson Dunn](https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/))", "Relevant if you sell into the EU: chatbots must disclose that they are AI, and AI-generated content must be marked. Retail pricing is not among the Act's [high-risk uses](https://artificialintelligenceact.eu/annex/3/)"],
+    ] },
+    { kind: "p", text: "**Third-party cookies have not disappeared, but first-party data still matters.** Google decided in April 2025 not to remove third-party cookies from Chrome or add a new prompt ([The Register](https://www.theregister.com/2025/04/22/google_privacy_sandbox/)), and in October 2025 retired most of its Privacy Sandbox technologies ([Google](https://privacysandbox.google.com/blog/update-on-plans-for-privacy-sandbox-technologies)). The case for first-party data now rests on consent rules, on browsers that already limit tracking, and on the value of owning the customer relationship." },
+    { kind: "p", text: "Two practical risks sit alongside the rules. Agents make mistakes, so check what they say about your products and correct the source data. And automation can amplify errors: a wrong price or a mistaken bulk purchase order spreads faster when no one reviews it." },
+    { kind: "p", text: "*This section is a summary, not legal advice. Check specific obligations with a lawyer.*" },
+
+    { kind: "h2", text: "8. A 90-day plan" },
+    { kind: "table", headers: ["When", "What to do", "How to check it worked"], rows: [
+      ["Days 1–30: one version of the truth", "Audit SKU data across Amazon, Flipkart, quick commerce apps and your website. Build a master product record for the top SKUs and fix every mismatch in attributes, pack sizes, prices and policies.", "Attribute completeness per listing; number of cross-channel mismatches, tracked down to zero for top SKUs"],
+      ["Days 31–60: advertising and pricing discipline", "Restructure marketplace ad campaigns into brand, category and competitor tiers; add negative keywords; set TACoS targets per product group. Write down channel price and promotion rules.", "TACoS trend against the previous period; organic share of sales; promotion rule breaches"],
+      ["Days 61–90: quick commerce and agent readiness", "Select the fastest-moving SKUs for quick commerce and plan stock by city. Add structured product data and clear policies to your website, and test how AI assistants describe your products.", "In-stock rate in dark stores; quick commerce sales by city; accuracy of AI answers about your products"],
+      ["Every month", "Review sales, profit, ad spend and stock by channel, plus a fixed set of test questions to AI assistants.", "Monthly report against the previous month"],
+    ] },
+
+    { kind: "h2", text: "9. How Pexeta helps" },
+    { kind: "p", text: "Pexeta has worked with marketplace sellers since 2012 and runs this plan as a managed service for brands on Amazon, Flipkart, Myntra, FirstCry and quick commerce apps." },
+    { kind: "table", headers: ["Plan step", "What Pexeta does"], rows: [
+      ["One version of the truth", "Catalogue audit, attribute completion, content rewrites and one product fact sheet across channels"],
+      ["Advertising and pricing discipline", "Campaign restructuring, bid and budget management, TACoS reporting and channel price monitoring"],
+      ["Quick commerce", "SKU selection, dark-store stock planning, purchase order fulfilment and visibility campaigns"],
+      ["Agent readiness", "Listing and website product data reviews, and a monthly AI assistant test panel"],
+    ] },
+    { kind: "p", text: "Brands can work with Pexeta on a fixed monthly retainership or a revenue performance share linked to sales growth, after an initial three-month ramp-up. See [pricing](/pricing) for details." },
+
+    { kind: "h2", text: "10. Outlook" },
+    { kind: "p", text: "Agentic commerce is moving from announcements to working pilots, and in India it is arriving through marketplace assistants, AI chat apps and UPI at the same time as quick commerce reshapes how people buy everyday goods. The brands best placed to benefit are not necessarily those with the most advanced AI, but those whose product facts, stock and prices are accurate and consistent wherever an agent or a shopper looks." },
+
+    { kind: "sources", items: [
+      { title: "McKinsey: The agentic commerce opportunity", url: "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-agentic-commerce-opportunity-how-ai-agents-are-ushering-in-a-new-era-for-consumers-and-merchants", note: "2030 forecasts, Oct 2025" },
+      { title: "Adobe: Holiday shopping season drove a record $257.8 billion online", url: "https://news.adobe.com/news/2026/01/adobe-holiday-shopping-season", note: "US data, Jan 2026" },
+      { title: "Anthropic: Donating the Model Context Protocol and establishing the Agentic AI Foundation", url: "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation", note: "9 Dec 2025" },
+      { title: "OpenAI: Buy it in ChatGPT: Instant Checkout and the Agentic Commerce Protocol", url: "https://openai.com/index/buy-it-in-chatgpt/", note: "29 Sep 2025" },
+      { title: "Google Cloud: Powering AI commerce with the new Agent Payments Protocol (AP2)", url: "https://cloud.google.com/blog/products/ai-machine-learning/announcing-agents-to-payments-ap2-protocol", note: "16 Sep 2025" },
+      { title: "Shopify: The agentic commerce platform", url: "https://www.shopify.com/news/ai-commerce-at-scale", note: "Universal Commerce Protocol, 11 Jan 2026" },
+      { title: "TechCrunch: India pilots AI chatbot-led e-commerce with ChatGPT, Gemini, Claude in the mix", url: "https://techcrunch.com/2025/10/09/india-pilots-ai-chatbot-led-e-commerce-with-chatgpt-gemini-claude-in-the-mix", note: "UPI agentic payments pilot, 9 Oct 2025" },
+      { title: "CareEdge Research: India's rapid delivery race", url: "https://www.careratings.com/uploads/newsfiles/1752146049_India%E2%80%99s%20Q-commerce%20Market%20-%20CareEdge%20Advisory%20Report.pdf", note: "Quick commerce market size, Jul 2025" },
+      { title: "Kotak Neo: Eternal Q2 FY27 results, Blinkit adds 308 stores", url: "https://www.kotakneo.com/news/stocks/eternal-q2-results-profit-rises-revenue-growth-blinkit-adds-stores/", note: "Blinkit store count, Oct 2026" },
+      { title: "Angel One: Blinkit net order value jumps 79.3% in Q2 FY27", url: "https://www.angelone.in/news/stocks/eternal-share-price-gains-2-7-as-blinkit-net-order-value-jumps-79-3-in-q2-fy27", note: "Oct 2026" },
+      { title: "Supply Chain Dive: Amazon seller fees target low inventory, inbound transportation costs", url: "https://www.supplychaindive.com/news/amazon-2024-fba-seller-fees-inventory-inbound-transportation/701713/", note: "US inbound placement fee from Mar 2024" },
+      { title: "Amazon.in: Selling fee schedule", url: "https://sell.amazon.in/fees-and-pricing/fee-schedule", note: "India fees" },
+      { title: "Elastic Path: B2B eCommerce Trends 2026", url: "https://www.elasticpath.com/blog/b2b-ecommerce-trends", note: "Composable and headless commerce, Jun 2026" },
+      { title: "PIB: DPDP Rules, 2025 notified", url: "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf", note: "Phased timeline" },
+      { title: "SCC Online: CCPA notifies Guidelines for Prevention and Regulation of Dark Patterns, 2023", url: "https://www.scconline.com/blog/post/2023/12/04/ccpa-notifies-guidelines-for-prevention-and-regulation-of-dark-patterns-2023-legal-news/", note: "In force 30 Nov 2023" },
+      { title: "Jones Walker: Yes, August 2 still matters", url: "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/yes-august-2-still-matters-the-eu-approved-a-high-risk-ai-delay-but-most-trans.html", note: "EU AI Act Article 50, Jul 2026" },
+      { title: "Gibson Dunn: EU AI Act Omnibus agreement", url: "https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/", note: "Marking grace period, May 2026" },
+      { title: "EU AI Act, Annex III: High-risk AI systems", url: "https://artificialintelligenceact.eu/annex/3/", note: "List of high-risk uses" },
+      { title: "The Register: RIP, Google Privacy Sandbox", url: "https://www.theregister.com/2025/04/22/google_privacy_sandbox/", note: "Chrome keeps third-party cookies, Apr 2025" },
+      { title: "Google: Update on plans for Privacy Sandbox technologies", url: "https://privacysandbox.google.com/blog/update-on-plans-for-privacy-sandbox-technologies", note: "Oct 2025" },
+    ] },
+  ],
+};
