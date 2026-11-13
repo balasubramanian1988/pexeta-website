@@ -42,6 +42,7 @@ import { flipkartZeroCommission } from "./flipkart-zero-commission-what-sellers-
 import { sellingOnMeeshoGuide } from "./selling-on-meesho-zero-commission-guide";
 import { sellingOnMyntraGuide } from "./selling-on-myntra-models-fees-zero-commission";
 import { legalMetrologyOnlineSellers } from "./legal-metrology-rules-online-sellers-listing-labels";
+import { ondcForBrandsSellersIndia } from "./ondc-for-brands-sellers-india";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -78,6 +79,7 @@ const ALL: BlogPost[] = [
   sellingOnMeeshoGuide,
   sellingOnMyntraGuide,
   legalMetrologyOnlineSellers,
+  ondcForBrandsSellersIndia,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
