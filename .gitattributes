@@ -1,0 +1,14 @@
+# Store text files with LF line endings and check them out as LF on every OS,
+# so Windows editors saving CRLF don't show up as modified files.
+* text=auto eol=lf
+
+# Binary files: never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
