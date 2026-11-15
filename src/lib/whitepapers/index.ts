@@ -10,8 +10,9 @@ import type { WhitePaper } from "./types";
 
 import { aiShoppingAssistantsIndia } from "./ai-shopping-assistants-marketplace-selling-india";
 import { agenticCommerceOmnichannelIndia } from "./agentic-commerce-omnichannel-growth-india-2026";
+import { quickCommerceSocialDiscoveryIndia } from "./quick-commerce-social-discovery-india-2026";
 
-const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia];
+const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia];
 
 export const WHITEPAPERS: WhitePaper[] = [...ALL].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 export const WHITEPAPER_MAP: Record<string, WhitePaper> = Object.fromEntries(WHITEPAPERS.map((w) => [w.slug, w]));
