@@ -44,6 +44,7 @@ import { sellingOnMyntraGuide } from "./selling-on-myntra-models-fees-zero-commi
 import { legalMetrologyOnlineSellers } from "./legal-metrology-rules-online-sellers-listing-labels";
 import { ondcForBrandsSellersIndia } from "./ondc-for-brands-sellers-india";
 import { bisCertificationOnlineSellers } from "./bis-certification-amazon-flipkart-sellers";
+import { quickCommerceInventoryLedModelBrands } from "./quick-commerce-inventory-led-model-brands";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -82,6 +83,7 @@ const ALL: BlogPost[] = [
   legalMetrologyOnlineSellers,
   ondcForBrandsSellersIndia,
   bisCertificationOnlineSellers,
+  quickCommerceInventoryLedModelBrands,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
