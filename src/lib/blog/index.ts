@@ -45,6 +45,7 @@ import { legalMetrologyOnlineSellers } from "./legal-metrology-rules-online-sell
 import { ondcForBrandsSellersIndia } from "./ondc-for-brands-sellers-india";
 import { bisCertificationOnlineSellers } from "./bis-certification-amazon-flipkart-sellers";
 import { quickCommerceInventoryLedModelBrands } from "./quick-commerce-inventory-led-model-brands";
+import { quickCommerceTier2CitiesBrands } from "./quick-commerce-tier-2-cities-brands";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -84,6 +85,7 @@ const ALL: BlogPost[] = [
   ondcForBrandsSellersIndia,
   bisCertificationOnlineSellers,
   quickCommerceInventoryLedModelBrands,
+  quickCommerceTier2CitiesBrands,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
