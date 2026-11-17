@@ -46,6 +46,7 @@ import { ondcForBrandsSellersIndia } from "./ondc-for-brands-sellers-india";
 import { bisCertificationOnlineSellers } from "./bis-certification-amazon-flipkart-sellers";
 import { quickCommerceInventoryLedModelBrands } from "./quick-commerce-inventory-led-model-brands";
 import { quickCommerceTier2CitiesBrands } from "./quick-commerce-tier-2-cities-brands";
+import { amazonSafeTClaimsIndia } from "./amazon-safe-t-claims-india";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -86,6 +87,7 @@ const ALL: BlogPost[] = [
   bisCertificationOnlineSellers,
   quickCommerceInventoryLedModelBrands,
   quickCommerceTier2CitiesBrands,
+  amazonSafeTClaimsIndia,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
