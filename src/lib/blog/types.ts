@@ -10,7 +10,7 @@ export type BlogBlock =
   | { kind: "ol"; items: string[] }                       // numbered list
   | { kind: "table"; headers: string[]; rows: string[][] }
   | { kind: "faq"; items: { q: string; a: string }[] }    // FAQ block (also feeds FAQ schema)
-  | { kind: "sources"; items: { title: string; url: string; note?: string }[] }; // highlighted, numbered source list
+  | { kind: "sources"; items: { title: string; url: string; note?: string; follow?: boolean }[] }; // follow: true = editorial dofollow link (default nofollow) // highlighted, numbered source list
 
 export type BlogPost = {
   slug: string;

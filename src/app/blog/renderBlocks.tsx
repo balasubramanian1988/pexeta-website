@@ -91,7 +91,7 @@ export default function RenderBlocks({ blocks }: { blocks: BlogBlock[] }) {
                 <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm text-slate-700">
                   {b.items.map((src, j) => (
                     <li key={j} className="leading-relaxed">
-                      <a href={src.url} target="_blank" rel="noopener nofollow" className="font-semibold text-slate-950 underline underline-offset-2 hover:text-amber">{src.title}</a>
+                      <a href={src.url} target="_blank" rel={src.follow ? "noopener" : "noopener nofollow"} className="font-semibold text-slate-950 underline underline-offset-2 hover:text-amber">{src.title}</a>
                       {src.note && <span className="text-slate-500"> — {src.note}</span>}
                     </li>
                   ))}

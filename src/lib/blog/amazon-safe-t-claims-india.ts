@@ -93,7 +93,7 @@ export const amazonSafeTClaimsIndia: BlogPost = {
     ]},
 
     {"kind": "sources", "items": [
-      {"title": "Unilytic: Amazon SAFE-T claims in India, windows, rules and filing", "url": "https://unilytic.in/policies/amazon-safe-t-claim-guide/", "note": "Summary of Amazon.in's SAFE-T policy for Easy Ship, Self-Ship and Seller Flex (read Oct 2026): windows, eligibility, evidence, exclusions, payouts, refusal codes"},
+      {"title": "Unilytic: Amazon SAFE-T claims in India, windows, rules and filing", "url": "https://unilytic.in/policies/amazon-safe-t-claim-guide/", "follow": true, "note": "Summary of Amazon.in's SAFE-T policy for Easy Ship, Self-Ship and Seller Flex (read Oct 2026): windows, eligibility, evidence, exclusions, payouts, refusal codes"},
       {"title": "Robnu: Amazon SAFE-T claim rejected, the real reasons", "url": "https://robnu.com/guides/amazon-safe-t-claim-rejected", "note": "Quotes Amazon India's denial text: 15 calendar days"},
       {"title": "Uglycreatives: SAFE-T claims on Amazon India, deadlines, proof and appeals", "url": "https://uglycreatives.com/amazon-safe-t-claim/", "note": "15-day, day 30-60 and day 50-75 windows"},
       {"title": "Amazon Seller Forums (India): Self-Ship orders above ₹25,000", "url": "https://sellercentral.amazon.in/seller-forums/discussions/t/2329120d-dc2b-46ed-aaf9-920d3fd90130", "note": "Filing within 15 days; lost-in-transit returns 50-75 days"},
