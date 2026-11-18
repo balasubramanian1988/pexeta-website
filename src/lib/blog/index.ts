@@ -47,6 +47,7 @@ import { bisCertificationOnlineSellers } from "./bis-certification-amazon-flipka
 import { quickCommerceInventoryLedModelBrands } from "./quick-commerce-inventory-led-model-brands";
 import { quickCommerceTier2CitiesBrands } from "./quick-commerce-tier-2-cities-brands";
 import { amazonSafeTClaimsIndia } from "./amazon-safe-t-claims-india";
+import { amazonIndiaSellerAiTools2026 } from "./amazon-india-seller-ai-tools-2026";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -88,6 +89,7 @@ const ALL: BlogPost[] = [
   quickCommerceInventoryLedModelBrands,
   quickCommerceTier2CitiesBrands,
   amazonSafeTClaimsIndia,
+  amazonIndiaSellerAiTools2026,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
