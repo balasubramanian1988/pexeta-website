@@ -12,8 +12,9 @@ import { aiShoppingAssistantsIndia } from "./ai-shopping-assistants-marketplace-
 import { agenticCommerceOmnichannelIndia } from "./agentic-commerce-omnichannel-growth-india-2026";
 import { quickCommerceSocialDiscoveryIndia } from "./quick-commerce-social-discovery-india-2026";
 import { agentEngineOptimizationAmazonGoogleAiMode } from "./agent-engine-optimization-amazon-google-ai-mode";
+import { cacSqueezeMarketingEfficiencyRatioIndia } from "./cac-squeeze-marketing-efficiency-ratio-india";
 
-const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode];
+const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode, cacSqueezeMarketingEfficiencyRatioIndia];
 
 export const WHITEPAPERS: WhitePaper[] = [...ALL].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 export const WHITEPAPER_MAP: Record<string, WhitePaper> = Object.fromEntries(WHITEPAPERS.map((w) => [w.slug, w]));
