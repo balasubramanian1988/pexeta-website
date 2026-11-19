@@ -48,6 +48,7 @@ import { quickCommerceInventoryLedModelBrands } from "./quick-commerce-inventory
 import { quickCommerceTier2CitiesBrands } from "./quick-commerce-tier-2-cities-brands";
 import { amazonSafeTClaimsIndia } from "./amazon-safe-t-claims-india";
 import { amazonIndiaSellerAiTools2026 } from "./amazon-india-seller-ai-tools-2026";
+import { ecommerceAmendmentRules2026Sellers } from "./ecommerce-amendment-rules-2026-sellers";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -90,6 +91,7 @@ const ALL: BlogPost[] = [
   quickCommerceTier2CitiesBrands,
   amazonSafeTClaimsIndia,
   amazonIndiaSellerAiTools2026,
+  ecommerceAmendmentRules2026Sellers,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
