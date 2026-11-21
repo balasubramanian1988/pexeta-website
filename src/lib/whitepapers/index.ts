@@ -16,8 +16,9 @@ import { cacSqueezeMarketingEfficiencyRatioIndia } from "./cac-squeeze-marketing
 import { quickCommerceUnitEconomicsIndia2026 } from "./quick-commerce-unit-economics-margin-defense-india-2026";
 import { amazonSearchRankingTacosIndia2026 } from "./amazon-search-ranking-tacos-governance-india-2026";
 import { aiAgentsRetailOperationsIndia2026 } from "./ai-agents-retail-operations-pricing-inventory-india-2026";
+import { zeroClickAttributionMmmIndia2026 } from "./zero-click-attribution-mmm-incrementality-india-2026";
 
-const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode, cacSqueezeMarketingEfficiencyRatioIndia, quickCommerceUnitEconomicsIndia2026, amazonSearchRankingTacosIndia2026, aiAgentsRetailOperationsIndia2026];
+const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode, cacSqueezeMarketingEfficiencyRatioIndia, quickCommerceUnitEconomicsIndia2026, amazonSearchRankingTacosIndia2026, aiAgentsRetailOperationsIndia2026, zeroClickAttributionMmmIndia2026];
 
 export const WHITEPAPERS: WhitePaper[] = [...ALL].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 export const WHITEPAPER_MAP: Record<string, WhitePaper> = Object.fromEntries(WHITEPAPERS.map((w) => [w.slug, w]));
