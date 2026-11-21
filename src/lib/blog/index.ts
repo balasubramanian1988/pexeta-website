@@ -50,6 +50,7 @@ import { amazonSafeTClaimsIndia } from "./amazon-safe-t-claims-india";
 import { amazonIndiaSellerAiTools2026 } from "./amazon-india-seller-ai-tools-2026";
 import { ecommerceAmendmentRules2026Sellers } from "./ecommerce-amendment-rules-2026-sellers";
 import { alexaForShoppingIndiaAmazonSellers } from "./alexa-for-shopping-india-amazon-sellers";
+import { amazonFlipkartCancellationDispatchPenalties2026 } from "./amazon-flipkart-cancellation-dispatch-penalties-2026";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -94,6 +95,7 @@ const ALL: BlogPost[] = [
   amazonIndiaSellerAiTools2026,
   ecommerceAmendmentRules2026Sellers,
   alexaForShoppingIndiaAmazonSellers,
+  amazonFlipkartCancellationDispatchPenalties2026,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
