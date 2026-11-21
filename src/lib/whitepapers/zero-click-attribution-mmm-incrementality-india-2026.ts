@@ -11,8 +11,8 @@ export const zeroClickAttributionMmmIndia2026: WhitePaper = {
   excerpt:
     "When shoppers discover a brand in an AI answer and buy days later on Blinkit or Amazon, last-click reports credit 'direct' and the ads that created the demand look useless. This paper explains how marketing mix models and incrementality tests fill that gap, using only what Google, Meta and regulators have published.",
   author: "Balasubramanian VA, Pexeta",
-  datePublished: "2026-11-22",
-  dateModified: "2026-11-22",
+  datePublished: "2026-11-21",
+  dateModified: "2026-11-21",
   readMinutes: 14,
   keywords: [
     "marketing mix modeling india",

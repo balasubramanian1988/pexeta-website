@@ -11,8 +11,8 @@ export const ecommerceGrowthPartnerOperatingModel2027: WhitePaper = {
   excerpt:
     "Ad platforms are automating bidding, targeting and even creative, and Amazon now lets AI agents run campaigns through an MCP server. That changes what a brand should pay an agency for. This paper sets out what is automated, what isn't, how agency fees are structured today, and the guardrails brands should insist on.",
   author: "Balasubramanian VA, Pexeta",
-  datePublished: "2026-11-25",
-  dateModified: "2026-11-25",
+  datePublished: "2026-11-21",
+  dateModified: "2026-11-21",
   readMinutes: 13,
   keywords: [
     "ecommerce agency model 2027",

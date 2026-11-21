@@ -11,8 +11,8 @@ export const personalisedMerchandisingIndia2026: WhitePaper = {
   excerpt:
     "Most D2C sites still send every visitor, whatever ad they clicked, to the same product page. This paper sets out what personalisation is realistically worth, how to personalise pages and bundles while protecting speed and margin, and the Indian rules on dark patterns and consent that set the limits.",
   author: "Balasubramanian VA, Pexeta",
-  datePublished: "2026-11-23",
-  dateModified: "2026-11-23",
+  datePublished: "2026-11-21",
+  dateModified: "2026-11-21",
   readMinutes: 13,
   keywords: [
     "personalised landing pages india",

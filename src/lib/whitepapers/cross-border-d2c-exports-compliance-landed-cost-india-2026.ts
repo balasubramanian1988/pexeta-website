@@ -11,8 +11,8 @@ export const crossBorderD2cExportsIndia2026: WhitePaper = {
   excerpt:
     "Amazon says it has enabled over $20 billion of cumulative e-commerce exports from India, and 2026 brought the biggest export policy change in years. But tariffs, the end of duty-free small parcels in the US and EU, and product rules abroad decide whether an export SKU is profitable. This paper sets out the facts and the maths.",
   author: "Balasubramanian VA, Pexeta",
-  datePublished: "2026-11-24",
-  dateModified: "2026-11-24",
+  datePublished: "2026-11-21",
+  dateModified: "2026-11-21",
   readMinutes: 15,
   keywords: [
     "cross border ecommerce india",
