@@ -218,22 +218,6 @@ export const amazonSearchRankingTacosIndia2026: WhitePaper = {
       text: "Each month we review total sales, TACoS, organic rank for core keywords and new-to-brand sales, using AMC where available. Bids and budgets are adjusted for stock levels, time of day and pacing against the TACoS ceiling.",
     },
 
-    { kind: "h2", text: "8. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"A10+ algorithm\" and its ranking weights** (organic 40%, PPC 15%, sentiment 20%, returns −25%, external traffic 15%, conversion 10%): Amazon has not published any such weights or announced an \"A10+\" update. Not used.",
-        "**\"Organic sales carry 2.4x the ranking equity of paid clicks\"** and **\"unit session percentage must exceed 12%\"**: no Amazon source. Not used.",
-        "**\"Amazon Ads $56 billion+\"**: we found no Amazon disclosure of that run rate. Amazon reported $19.64 billion of advertising revenue in Q3 2026.",
-        "**\"Over 35% of Amazon mobile searches are conversational\"**: no Amazon source found. Amazon's disclosed figures are 300 million+ Rufus users in 2025 and 400 million+ Alexa for Shopping users in the 12 months to Q3 2026.",
-        "**Rufus:** in India it is being replaced by Alexa for Shopping, from 12 November 2026.",
-        "**Backend search terms \"249 bytes\"**: that is the US figure. Amazon.in's limit is 200 bytes.",
-        "**Brand Referral Bonus \"10% rebate\" for Indian sellers**: the average-10% figure comes from Amazon's US programme; we found no Amazon.in announcement.",
-        "**TACoS bands (10–14% healthy, 20–35% launch, 18–28% danger) and \"video CTR 3.4x static\"**: no primary source found. This paper uses a margin-based ceiling instead.",
-        "**\"Answer Q&A within 4 hours\"**: Amazon has set no such rule; we recommend accurate answers without a fixed time claim.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

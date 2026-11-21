@@ -170,20 +170,6 @@ export const crossBorderD2cExportsIndia2026: WhitePaper = {
       ],
     },
 
-    { kind: "h2", text: "8. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"DGFT framework lets brands forward-deploy inventory into foreign bonded warehouses\":** the August 2026 framework is for foreign-funded e-commerce entities acting as Exporters-on-Record, with brands as Sellers-on-Record. Brands shipping their own stock abroad is ordinary exporting and was already possible.",
-        "**\"$20 billion by late 2026\" and \"$80 billion DGFT target\":** the $20 billion milestone covers 2015–2025 and was announced in October 2025; $80 billion by 2030 is Amazon's target. The government's stated goal is $200–300 billion in e-commerce exports by 2030.",
-        "**US import duty at 4% of retail price:** duty is charged on customs value, and a 10% Section 301 tariff currently applies on top of normal duty for most Indian goods. The US de minimis exemption has ended.",
-        "**IOSS \"eliminates customs fees\":** since 1 July 2026 a €3 per-item customs duty applies to low-value EU consignments.",
-        "**\"68–78% international gross margin\", \"Amazon US AOV $45–85\", \"over 40% of mobile users use Rufus\":** no primary source found; not stated.",
-        "**GCC \"Montaji\" registration and Jebel Ali specifics:** not verified; we advise confirming with the destination authority.",
-        "**Reference list:** a 2025–26 \"Amazon Global Selling India Annual Report\" and several consultancy guides could not be located; replaced with primary sources below.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

@@ -133,20 +133,6 @@ export const ecommerceGrowthPartnerOperatingModel2027: WhitePaper = {
       ],
     },
 
-    { kind: "h2", text: "6. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"Search query volume declines by 25–45% (Gartner)\":** Gartner's February 2024 prediction was a 25% fall in traditional search engine volume by 2026; we found no Gartner figure of 45%.",
-        "**Agency benchmarks (\"revenue per employee ₹1.2–2.5 crore\", \"15–25 accounts per executive\", \"30 people replace a 250-person shop\"):** no primary source found; removed.",
-        "**\"Privacy restrictions have dismantled client-side tracking\":** Chrome kept third-party cookies; the measurement gap comes mainly from zero-click discovery and off-site sales (see Part 6).",
-        "**\"Blended TACoS strictly 10–14%\" and \"fill rates above 95%\" as universal targets:** these depend on category and margin; not stated as benchmarks.",
-        "**\"Agency earns 5–12% of incremental profit\":** a proposal, not an industry norm; presented as an illustrative model.",
-        "**Presenc AI \"$1.1 trillion\" forecast, Gartner \"Agency 2027\", McKinsey and other cited reports:** could not be located; replaced with primary sources.",
-        "**Results claims for Pexeta's own framework:** not included; this paper describes approaches, not outcomes.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

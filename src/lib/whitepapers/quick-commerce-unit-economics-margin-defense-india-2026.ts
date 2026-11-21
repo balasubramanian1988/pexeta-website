@@ -218,19 +218,6 @@ export const quickCommerceUnitEconomicsIndia2026: WhitePaper = {
       text: "Reconcile every settlement against purchase orders, invoices and deductions each month, by platform. Unexplained deductions are a common source of lost margin.",
     },
 
-    { kind: "h2", text: "8. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**Blinkit store count:** 2,443 was the June 2026 figure; Eternal reported 2,751 at September 2026, with a target of more than 3,500 by March 2027 (not 3,000).",
-        "**Blinkit \"net profit\":** the net profit figures are Eternal's consolidated results. Blinkit reports adjusted EBITDA (₹184 crore in Q2 FY27).",
-        "**Instamart:** contribution breakeven in May 2026 is confirmed, but contribution was −1.0% of GOV in Q2 FY27 as Swiggy stepped up investment. The network is 1,240 stores in 133 cities.",
-        "**Market size:** we found no source for \"$14 billion\", \"17% of online retail GMV\" as stated, or \"$45 billion by 2030\". Published estimates are about $13 billion in FY26 (Redseer and Google) and 16–17% of e-retail GMV in 2025 (Bain and Flipkart).",
-        "**Platform commission bands (18–28%), category mix (32%), Flipkart Minutes store counts and freight savings (35–45%):** we couldn't trace these to primary sources, so they aren't used. The waterfall in section 3 is labelled illustrative.",
-        "**MRP waterfalls without GST:** any waterfall starting from MRP must remove GST before platform deductions.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

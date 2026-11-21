@@ -186,20 +186,6 @@ export const personalisedMerchandisingIndia2026: WhitePaper = {
       text: "Stage 1 needs no personal data and is usually the fastest to show results. Our [Agent Engine Optimization paper](/whitepapers/agent-engine-optimization-amazon-google-ai-mode) covers how product data should also be structured for AI shopping assistants.",
     },
 
-    { kind: "h2", text: "8. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"Conversion up 28–44%\", \"AOV up 22–35%\", \"bounce rates over 65%\", benchmark table from \"40+ D2C brands\":** no primary source found, so not stated. The sourced range is McKinsey's 10–15% typical revenue lift (5–25% by company).",
-        "**\"LCP under 1.2 seconds\":** Google's \"good\" threshold is 2.5 seconds or less at the 75th percentile; faster is better, but 1.2 s is not a standard.",
-        "**\"Llama-3.3-8B\":** no such Meta model exists, so model names are left out; choose models on tested quality, cost and speed.",
-        "**\"Sub-150 ms page assembly\", \"180 ms fallback\":** not verifiable; replaced with a pre-render and cache approach.",
-        "**\"Photoshoots cost ₹5–20 lakh\":** no source found; removed.",
-        "**Bundle example:** ₹399 + ₹899 at 15% off is ₹1,103.30, not ₹1,163.15, and the blended gross margin is about 59.7%, not 62%.",
-        "**References to HBR (March 2026), Gartner, McKinsey \"Living Storefronts\", a Klaviyo 10,000-brand study and a Dynamic Yield index:** could not be located; replaced with the sources below.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

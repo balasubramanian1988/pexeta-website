@@ -175,20 +175,6 @@ export const zeroClickAttributionMmmIndia2026: WhitePaper = {
       text: "Each layer checks the others: a channel that looks strong in platform reports but fails a geo test gets its budget capped until the evidence improves; a channel the MMM rates highly but has never been tested gets the next test.",
     },
 
-    { kind: "h2", text: "9. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"Over 60% of search journeys resolve inside AI conversational surfaces\":** not found. The verified figure is Similarweb's: 69% of Google searches ended without a click in May 2025, up from 56% in May 2024.",
-        "**\"Third-party cookies deprecated\" and \"browser signal destruction\":** Chrome has kept third-party cookies; Google abandoned the deprecation plan in 2024–25.",
-        "**\"Consent Mode v2\" as a universal regulation:** it is Google's mechanism for EEA and UK consent requirements, enforced from March 2024.",
-        "**DPDP:** the Act's main notice and consent obligations for businesses apply from 13 May 2027, not now.",
-        "**\"Cookie tracking coverage reduced by 40–70%\", \"8.0x branded ROAS\", \"TACoS from 12% to over 28%\", \"0.10 incrementality factor\", \"3–6 week lag\":** no primary source found; replaced with labelled illustrative examples.",
-        "**\"Share of Model directly correlates with branded search\":** no published evidence found; we recommend tracking both and testing the relationship for your brand.",
-        "**Meridian \"Python 3.11–3.13\", \"GPU via JAX\", \"GeoX integration\":** not verified against Google's announcements, so not stated.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

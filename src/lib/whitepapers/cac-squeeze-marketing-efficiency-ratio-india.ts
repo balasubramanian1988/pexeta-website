@@ -281,22 +281,6 @@ export const cacSqueezeMarketingEfficiencyRatioIndia: WhitePaper = {
       text: "The common thread is that our fee moves with the brand's contribution, not with its ad budget.",
     },
 
-    { kind: "h2", text: "9. Claims we checked and left out" },
-    {
-      kind: "p",
-      text: "Several statistics circulate widely in reports on this topic. We traced them and did not use them, for these reasons:",
-    },
-    {
-      kind: "ul",
-      items: [
-        "\"CAC rose 40% to 60% in 2026\": the 60% figure is a 2022 five-year industry estimate (SimplicityDX), not a 2026 measurement.",
-        "\"Commerce media overtook TV in 2025\": WARC's forecast is that retail media overtakes combined linear and connected TV in 2026.",
-        "\"21% of merchants report margin erosion\": in the E-commerce Monitor 2026 the 21% refers to Dutch webshops with declining revenue.",
-        "Marketplace vs D2C CAC ranges (\"$25–45 vs $68–84\") and SMS cart-recovery conversion rates (\"24.6%–39.4%\"): we could not find a primary source.",
-        "A \"15% referral fee\" on marketplaces: that is a US-style example. Amazon India's referral fees vary by category and price band, and products under ₹1,000 in more than 1,800 categories have carried zero referral fees since 16 March 2026.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [

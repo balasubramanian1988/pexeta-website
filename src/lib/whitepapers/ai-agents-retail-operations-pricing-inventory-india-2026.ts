@@ -222,20 +222,6 @@ export const aiAgentsRetailOperationsIndia2026: WhitePaper = {
       text: "Only frequent, reversible, measurable actions move to automatic execution, within caps. We review the action log and results with the brand every month and adjust limits.",
     },
 
-    { kind: "h2", text: "10. Claims we checked and corrected" },
-    {
-      kind: "ul",
-      items: [
-        "**\"Over 40% of tier-1 retailers have deployed agentic systems\" (McKinsey, Gartner, Salesforce):** not found. McKinsey's 2025 figures are 62% experimenting and 23% scaling somewhere across all industries; the 40% figure Gartner publishes is the share of agentic projects it expects to be cancelled by 2027.",
-        "**\"OpEx reduced by 22–34%\", \"inventory turns up 2.8x\", \"AOV up 18–26%\", \"22% of returns prevented\", \"returns cost 15–30% of gross margin\":** no primary source found. Not used.",
-        "**\"Amazon's A10+ algorithm strips the Buy Box if a lower price is found on Flipkart, Zepto or Blinkit\":** \"A10+\" is not an Amazon term. Amazon's Fair Pricing Policy does compare prices on and off Amazon and can remove the Featured Offer, but Amazon has not published which sites it checks.",
-        "**Fixed KPI targets** (Buy Box win rate above 92%, out-of-stock below 3%, conversion above 14%, first-contact resolution above 88%) and the **40/35/25 stock split** and **52% margin floor:** illustrative or unsourced. Targets should come from each brand's own data.",
-        "**\"Sub-second\" price changes and real-time price testing:** frequent price changes risk Fair Pricing issues and competition concerns; we recommend capped, logged changes.",
-        "**\"Instant refund and keep the product under ₹300\":** possible on a brand's own website, but marketplace returns follow platform policy.",
-        "**\"OpenAI & Microsoft documentation on LangGraph and AutoGen\":** LangGraph is developed by LangChain and AutoGen by Microsoft.",
-      ],
-    },
-
     {
       kind: "faq",
       items: [
