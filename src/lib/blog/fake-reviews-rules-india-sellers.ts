@@ -20,7 +20,7 @@ export const fakeReviewsRulesIndiaSellers: BlogPost = {
     "consumer protection e-commerce rules reviews",
     "how to get amazon reviews india",
   ],
-  verifyNote: "Vine availability in India unclear: sell.amazon.com lists Vine stores without India; India forum posts describe enrolment. Check Seller Central before editing. Request a Review window 5–30 days per Amazon forum moderators.",
+  verifyNote: "Vine confirmed available on Amazon.in (Seller Central Marketing menu, user screenshot 22 Nov 2026). Request a Review window 5–30 days per Amazon forum moderators.",
   body: [
     { kind: "p", text: "For a new listing on Amazon or Flipkart, the first 20 to 50 reviews can feel like the hardest sales to make. That pressure is why so many sellers are offered review services, refund-for-review schemes and 'rating boosters'. In India, these aren't just against marketplace policy. Posting reviews that pretend to come from customers is prohibited under consumer protection law." },
 
@@ -64,7 +64,7 @@ export const fakeReviewsRulesIndiaSellers: BlogPost = {
       kind: "ol",
       items: [
         "**Use Request a Review.** On Amazon it sends a standard request for a product review and seller feedback, once per order, between 5 and 30 days after delivery. Many tools can send it automatically.",
-        "**Check whether Vine is open to you.** Vine needs Brand Registry and eligible FBA offers, and products with fewer than 30 reviews. Amazon's own Vine page doesn't list India among its stores, so check Seller Central for your account. See our [Brand Registry guide](/blog/amazon-brand-registry-a-plus-content-india).",
+        "**Use Amazon Vine if you're eligible.** Vine is available to sellers on Amazon.in, under Marketing → Vine in Seller Central. Products must be registered in Brand Registry, have fewer than 30 reviews and have a buyable FBA offer in 'New' condition. Vine reviewers get the product free, and their reviews are labelled. See our [Brand Registry guide](/blog/amazon-brand-registry-a-plus-content-india).",
         "**Fix the product and the listing first.** Many negative reviews come from expectations set by the listing. Accurate images, sizes and specs reduce returns and low ratings. See our [listing SEO guide](/blog/amazon-listing-seo-india-keywords-titles).",
         "**Protect delivery quality.** Late, damaged or cancelled orders lead to bad feedback. Our guides on [fulfilment options](/blog/amazon-fba-easy-ship-self-ship-india) and [cancellation penalties](/blog/amazon-flipkart-cancellation-dispatch-penalties-2026) cover the operational side.",
         "**Read negative reviews as product feedback.** Look for repeated complaints and fix them in the product, packaging or listing.",
@@ -93,7 +93,7 @@ export const fakeReviewsRulesIndiaSellers: BlogPost = {
         { title: "HSA Advocates: Consumer Protection (E-commerce) Rules, 2020", url: "https://hsalegal.com/wp-content/uploads/2020/09/HSA-Corp-Comm-Law-Policy-The-Consumer-Protection-E-commerce-Rules-2020.pdf", note: "Rule 6: sellers must not pose as consumers to post reviews" },
         { title: "Amazon: Update on customer reviews (Oct 2016)", url: "https://www.aboutamazon.com/news/innovation-at-amazon/update-on-customer-reviews", note: "Incentivised reviews prohibited except through Vine" },
         { title: "Amazon Community Guidelines", url: "https://digprjsurvey.amazon.com/csad/help/node/GLHXEX85MENUE4XF", note: "Vine reviews labelled" },
-        { title: "Amazon: Vine for sellers", url: "https://sell.amazon.com/tools/vine", note: "Eligibility and stores where Vine is available" },
+        { title: "Amazon Seller Forums: How to enrol in the Vine programme (Amazon.in)", url: "https://sellercentral-europe.amazon.com/seller-forums/discussions/t/1422541b-d7ea-432f-aa7c-8bd032470521", note: "Amazon.in eligibility: Brand Registry, fewer than 30 reviews, buyable FBA offer in New condition" },
         { title: "Amazon Seller Forums: Request a Review timing", url: "https://sellercentral.amazon.com/seller-forums/discussions/t/07451e25-68c9-4eca-86bd-bff2a74b655c", note: "Once per order, 5–30 days after delivery" },
       ],
     },
