@@ -182,7 +182,7 @@ export const omnichannelInventoryReturnsIndia2026: WhitePaper = {
     { kind: "h2", text: "8. The legal baseline in India" },
     {
       kind: "p",
-      text: "The Consumer Protection (E-Commerce) Rules, 2020 bar sellers on marketplaces from refusing to take back goods, or refusing a refund, where goods are defective, deficient, spurious, or not as described. Returns policy can be designed to control cost, but it can't remove that baseline. Each marketplace's own return policy applies on top.",
+      text: "The Consumer Protection (E-Commerce) Rules, 2020 bar sellers on marketplaces from refusing to take back goods, or refusing a refund, where goods are defective, deficient, spurious, or not as advertised. Returns policy can be designed to control cost, but it can't remove that baseline. Each marketplace's own return policy applies on top.",
     },
 
     { kind: "h2", text: "9. The Pexeta approach" },
@@ -211,7 +211,7 @@ export const omnichannelInventoryReturnsIndia2026: WhitePaper = {
         { q: "What share of online purchases are returned?", a: "In the US, NRF and Happy Returns estimated 19.3% of online sales would be returned in 2025, against 15.8% of all retail sales." },
         { q: "What is available-to-promise (ATP)?", a: "The number of units a business can commit to a customer at a given location and date, after subtracting reservations and safety reserves from physical stock." },
         { q: "Can Amazon sellers refund without taking the item back?", a: "Amazon lets sellers set returnless resolution rules for seller-fulfilled orders by price, category or return reason. In the US, FBA sellers can set a maximum item price between $1 and $75. Check Seller Central for Amazon.in." },
-        { q: "Can a seller in India refuse a return?", a: "Under the Consumer Protection (E-Commerce) Rules, 2020, marketplace sellers can't refuse to take back goods or refund where goods are defective, deficient, spurious or not as described." },
+        { q: "Can a seller in India refuse a return?", a: "Under the Consumer Protection (E-Commerce) Rules, 2020, marketplace sellers can't refuse to take back goods or refund where goods are defective, deficient, spurious or not as advertised." },
       ],
     },
 
