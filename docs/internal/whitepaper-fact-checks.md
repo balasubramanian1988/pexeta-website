@@ -156,3 +156,22 @@ Claims from source research PDFs that were corrected or left out of the publishe
       ],
     },
 ```
+
+## Part 4 — Machine-readable catalogs (22 Nov 2026) — internal, not published
+- "71% of ChatGPT-cited / 65% of AI Mode-cited pages have schema": no source found. Replaced with Ahrefs (AI-cited pages ~3x more likely to have JSON-LD; controlled test of 1,885 pages: no measurable citation lift).
+- ACP "powers Instant Checkout": OpenAI scaled Instant Checkout back in March 2026; merchants use own checkout. Updated.
+- "79-field feed": not confirmed. OpenAI spec: nine required basic fields + target/store country. Updated.
+- UCP partners/AP2: AP2 = Agent Payments Protocol (not "Agent Pay 2"); Copilot Checkout is not UCP-based per sources. Merchant Center UCP is US pilot only. Updated.
+- MCP attributed to "Anthropic, Shopify"; "/api/ucp/mcp" endpoint: unverified. MCP = Anthropic (Nov 2024), now Agentic AI Foundation. Removed endpoint.
+- llms.txt "Web Standards Working Group" and "1/10th token cost": unsourced. Google says llms.txt not needed / not used. Updated.
+- JSON-LD example: suitableForDiet (Recipe/MenuItem property), isAccessoryOrSparePartFor:false, unitText "HUR", fictional brand named "Pexeta Organics", fabricated reviewer — removed; replaced with property table from Google merchant listing docs.
+- "<100ms" sync, "algorithmic blacklisting", "100% readiness", crawler names (Google-Extended is a robots token, Claude-Web deprecated): removed or generalised.
+
+## Part 8 — Omnichannel inventory & reverse logistics (22 Nov 2026) — internal, not published
+- "Over 2,400 dark stores (Blinkit, Zepto, Instamart)": understated. Blinkit 2,751 (Sep 2026); Zepto 1,139, Instamart 1,143 (FY26 end).
+- 19.3% online return rate: confirmed (NRF/Happy Returns 2025). "15.8% baseline" is total retail, not online.
+- "28–32% apparel", "$215B US reverse logistics / $264B by 2030", "4.2% overselling", "14–21 days to 48–72 hours", "22–30% cost of return", "15–30% of gross profit": no primary sources found. Removed.
+- ₹1,000 return waterfall and "₹48 lakh/month" example: illustrative numbers without source. Replaced with a cost-line measurement table.
+- Buffer thresholds "below 5 units", "below 4 units", dark store "1,500–4,000 sq ft", "95% fill rate": unsourced. Removed.
+- Pexeta pillar claims "32% faster transit, 18% lower shipping, 34% of returns retained": unverifiable client results. Removed (no case studies).
+- Added sourced India RTO data (Unicommerce, ClickPost), Amazon returnless resolutions, and E-Commerce Rules baseline.
