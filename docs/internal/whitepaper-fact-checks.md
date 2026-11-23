@@ -175,3 +175,24 @@ Claims from source research PDFs that were corrected or left out of the publishe
 - Buffer thresholds "below 5 units", "below 4 units", dark store "1,500–4,000 sq ft", "95% fill rate": unsourced. Removed.
 - Pexeta pillar claims "32% faster transit, 18% lower shipping, 34% of returns retained": unverifiable client results. Removed (no case studies).
 - Added sourced India RTO data (Unicommerce, ClickPost), Amazon returnless resolutions, and E-Commerce Rules baseline.
+
+## 2026-11-23 — Part 12: Retail Media Networks 2.0 (retail-media-networks-quick-commerce-ctv-india-2026)
+- Global $196.7B (2026) was WARC's Nov 2025 forecast; WARC Aug 2026 update = $200.4B (2026), $223.4B (2027). Used latest.
+- "$312B by 2030 / 11% CAGR", "India retail media 38% CAGR", "₹18,000 cr QC ads by 2030" — no primary source; removed.
+- US off-site $17.05B → EMARKETER $16.81B; growth 29.6% (draft 29.5%). US CTV $4.2B / 43.1% — not found; removed.
+- Instacart "ads = 97.98% of adj. EBITDA; core broke even at $22M" — derived ratio comparing revenue to EBITDA; misleading, removed. Kept ads & other rev $1.065B, adj EBITDA $1.1B.
+- Zepto: ₹1,635.7 cr / +151% / 2,468 brands confirmed; "7.23%" → 7.2% of operating revenue (Inc42). "More profit from ads than spent on CAC" → replaced with sourced comparison: ₹1,389 cr own ad spend.
+- IAB Europe V2 "mandated July 2026" → voluntary standards; July 2026 was the end of the V1/V2 transition. "14-day attribution windows" not in sources; removed.
+- QC CPC ₹4–25, CPM ₹80–250, ROAS 3–8x, retail margins 1.5–4% vs RMN 68–85%, "80% of transactions in store", "on-site saturation late 2025" — blog/unsourced; removed.
+- "Disney+ Hotstar, JioCinema" outdated (merged into JioHotstar); CTV section rebuilt on Amazon Ads India sources.
+- Pexeta budget split (40/25/20/15) and ACoS <18% / TACoS 10–12% / "<4 units" targets removed (unsourced targets); framework kept as process.
+
+## 2026-11-23 — Part 11: WhatsApp Conversational Commerce (whatsapp-conversational-commerce-chat-checkout-india-2026)
+- "72-hour free window" → Meta docs: FEP window may stay open up to 7 days (Wati: from 28 Sep 2026); requires business reply within 24h; Meta Business Agent messages still charged.
+- Oct 2026 change confirmed: service messages charged after 1,000 free per phone number/month; utility in CSW charged again; payment method by 30 Sep 2026. Draft table's "Mandatory verified payment" kept; "native MBA token charges" → $2.00 per 1M tokens.
+- Added: India INR billing migration deadline 31 Dec 2026 (Meta).
+- 3.3B MAU / 284M business accounts / $45B economy / India 535M / Brazil 148M — only "3B+" confirmed by Meta; others third-party estimates; removed.
+- 45–60% conversion, 95–98% open rate, CPL ₹25–65, cart recovery 22–38%, CAC −35–60%, 15–40x ROAS, 98.1% UPI success, 35% gateway drop-off, 22–34% COD→prepaid, 2.4x repeat — vendor marketing stats; removed.
+- "Flows 2.0" not an official name → "WhatsApp Flows". Payment partners: Cashfree not listed by Meta; supported = BillDesk, Razorpay, PayU, Zaakpay. "Meta Pay & Stripe tokens" removed.
+- COD 50–70% share / RTO 20–35% → replaced with Unicommerce and ClickPost figures (same as Part 8).
+- "Green Tick", "99.99% SLA", "AI handles 85% of queries", "₹5 Cr+ GMV brands" — unverifiable claims; removed.
