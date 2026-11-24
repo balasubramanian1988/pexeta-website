@@ -196,3 +196,9 @@ Claims from source research PDFs that were corrected or left out of the publishe
 - "Flows 2.0" not an official name → "WhatsApp Flows". Payment partners: Cashfree not listed by Meta; supported = BillDesk, Razorpay, PayU, Zaakpay. "Meta Pay & Stripe tokens" removed.
 - COD 50–70% share / RTO 20–35% → replaced with Unicommerce and ClickPost figures (same as Part 8).
 - "Green Tick", "99.99% SLA", "AI handles 85% of queries", "₹5 Cr+ GMV brands" — unverifiable claims; removed.
+
+## Part 13 — ONDC (ondc-open-network-digital-commerce-india-2026), 24 Nov 2026
+- Kept/sourced: 500M cumulative (Jul 2026, DPIIT via Cross-Border Magazine); 218M FY26 (ONDC FY25-26 review); ~0.2M FY23; 200,000+ retail merchants; 1.16 lakh+ retail sellers, 630+ cities (Lok Sabha, Dec 2025); 300,000+ tickets/day, 21 bus cities, 9 metros; 9 lakh+ drivers in 55 cities; Rs 218 cr loans; 28/50 AMCs; DigiDukaan; Rs 220 cr raise (Zoho 70, Uber 60, Paytm 60, BSE 30).
+- Fees: buyer app fee negotiated in real time, 3% cap removed (ONDC Commercial Model ch.3); Rs 1.5 network fee from 1 Jan 2025 on successful txns > Rs 250, paid by seller-side NPs (Inc42); Fynd 3% as example.
+- IGM: 3 levels issue/grievance (GRO)/ODR; ONDC grievance portal; courts any time.
+- Removed (unverified): 760K enterprises/1,200+ towns; 370,000+ daily trips; 80% of metro ticketing; Rs 1,000 order waterfall; 3-5% commissions; 80% more margin; 2+ billion annual; 30-40% of digital commerce; Pexeta "5-8% below Amazon, +12-15% margin" and "<2 hour" delivery targets; Dunzo as LSP; customer-data ownership claim. Draft references had no links; replaced with linked sources.
