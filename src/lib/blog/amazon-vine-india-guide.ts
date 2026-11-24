@@ -21,7 +21,7 @@ export const amazonVineIndiaGuide: BlogPost = {
     "vine voices reviews",
   ],
   verifyNote:
-    "Vine available on Amazon.in (user's Seller Central screenshot, 22 Nov 2026: Marketing → Vine). India fee in INR not confirmed from an official source (one third-party article gives both ₹2,600 and ₹7,500), so the article gives US tiers as reference and tells sellers to check the fee shown in the enrollment tool. 'Enroll up to 2 units free till 21 July' is from an Amazon.in forum post, not used.",
+    "Vine available on Amazon.in (user's Seller Central screenshot, 22 Nov 2026: Marketing → Vine). Amazon.in fee tiers ₹0 (1–2 units) / ₹1,000 (3–10) / ₹2,600 (11–30) from user's Seller Central Vine enrollment screenshot, 24 Nov 2026 — re-check periodically. 'Enroll up to 2 units free till 21 July' is from an Amazon.in forum post, not used.",
   body: [
     { kind: "p", text: "Shoppers rarely buy a product with no reviews when a competitor has hundreds. That makes the first 20 to 30 reviews the hardest part of any launch. Buying reviews or giving free products for reviews is against Amazon's rules and, in India, a consumer-law risk. **Amazon Vine** is the exception Amazon runs itself." },
 
@@ -60,19 +60,20 @@ export const amazonVineIndiaGuide: BlogPost = {
         "The fee is charged **once per parent ASIN**, with no extra charge for child variations.",
         "It is charged **seven days after the first Vine review is published**, not when you enroll.",
         "If no Vine review is published within **90 days** of enrollment, you aren't charged.",
-        "Amazon's terms say the fee is shown in the online enrollment tool when you enroll. Check the Amazon.in fee there before you confirm.",
+        "The fee is shown in the enrollment tool before you confirm, so check it there each time in case it changes.",
       ],
     },
-    { kind: "p", text: "For reference, Amazon's US page lists three tiers by units enrolled per parent product:" },
+    { kind: "p", text: "On Amazon.in, the Vine enrollment screen in Seller Central shows three tiers by the number of units you enroll per parent product (November 2026):" },
     {
       kind: "table",
-      headers: ["Units enrolled (US)", "Enrollment fee (US)"],
+      headers: ["Units enrolled per parent product", "Enrollment fee (Amazon.in)"],
       rows: [
-        ["Up to 2", "$0"],
-        ["3 to 10", "$75"],
-        ["11 to 30", "$200"],
+        ["1 to 2", "₹0"],
+        ["3 to 10", "₹1,000"],
+        ["11 to 30", "₹2,600"],
       ],
     },
+    { kind: "p", text: "The fee is per parent product, so variations such as sizes or colours under one parent share a single fee." },
     { kind: "h3", text: "Cost of the free units" },
     { kind: "p", text: "The units Vine Voices receive are your stock. Add your landed cost per unit and the FBA fees for shipping them. For a paddle, appliance or other higher-value product, the free units usually cost more than the enrollment fee, so plan how many you really need." },
     {
@@ -110,6 +111,7 @@ export const amazonVineIndiaGuide: BlogPost = {
       items: [
         { q: "Is Amazon Vine available in India?", a: "Yes. Eligible Amazon.in sellers can enroll products from the Marketing menu in Seller Central." },
         { q: "Who is eligible for Amazon Vine?", a: "Professional sellers registered on Amazon.in, for products in a brand they represent in Brand Registry, with fewer than 30 reviews and a buyable FBA offer in New condition." },
+        { q: "How much does Amazon Vine cost in India?", a: "As shown in Seller Central's enrollment screen in November 2026: free for 1 to 2 units, ₹1,000 for 3 to 10 units and ₹2,600 for 11 to 30 units, per parent product. You also give the units away free, so add their cost." },
         { q: "When is the Vine fee charged?", a: "Once per parent ASIN, seven days after the first Vine review is published. If no Vine review is published within 90 days, there's no charge." },
         { q: "Can I ask Vine reviewers for good reviews?", a: "No. You can't choose the reviewers or influence what they write. Vine reviews are their honest opinion." },
         { q: "How many reviews can I get from Vine?", a: "Up to 30 units per parent product, and the cap includes existing reviews." },
@@ -120,7 +122,7 @@ export const amazonVineIndiaGuide: BlogPost = {
       kind: "sources",
       items: [
         { title: "Amazon Seller Forums: How to enroll in the Vine program (Amazon.in eligibility)", url: "https://sellercentral-europe.amazon.com/seller-forums/discussions/t/1422541b-d7ea-432f-aa7c-8bd032470521" },
-        { title: "Amazon (sell.amazon.com): Amazon Vine", url: "https://sell.amazon.com/tools/vine", note: "Up to 30 units per product; not charged until first review; US fee tiers" },
+        { title: "Amazon (sell.amazon.com): Amazon Vine", url: "https://sell.amazon.com/tools/vine", note: "Up to 30 units per product; not charged until first review" },
         { title: "Amazon (sell.amazon.com): Vine program", url: "https://sell.amazon.com/programs/vine", note: "Fee per parent product; adult, digital and bundled products excluded" },
         { title: "Amazon Seller Central Help: Vine", url: "https://sellercentral.amazon.com/gp/help/external/GX3CEV63Y4ZZAP37", note: "Fee charged once per parent ASIN, 7 days after first Vine review" },
         { title: "Amazon Seller Forums: Vine enrollment fee and 90-day rule", url: "https://sellercentral.amazon.com/seller-forums/discussions/t/8050c8650c952812d65e347e3f8ce423" },
