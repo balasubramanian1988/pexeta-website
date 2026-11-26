@@ -24,9 +24,10 @@ import { machineReadableCatalogsIndia2026 } from "./machine-readable-product-cat
 import { omnichannelInventoryReturnsIndia2026 } from "./omnichannel-inventory-returns-rto-india-2026";
 import { retailMediaNetworksIndia2026 } from "./retail-media-networks-quick-commerce-ctv-india-2026";
 import { ondcOpenNetworkIndia2026 } from "./ondc-open-network-digital-commerce-india-2026";
+import { darkStoreAutomationColdChainIndia2026 } from "./dark-store-automation-cold-chain-quick-commerce-india-2026";
 import { whatsappConversationalCommerceIndia2026 } from "./whatsapp-conversational-commerce-chat-checkout-india-2026";
 
-const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode, cacSqueezeMarketingEfficiencyRatioIndia, quickCommerceUnitEconomicsIndia2026, amazonSearchRankingTacosIndia2026, aiAgentsRetailOperationsIndia2026, zeroClickAttributionMmmIndia2026, personalisedMerchandisingIndia2026, crossBorderD2cExportsIndia2026, ecommerceGrowthPartnerOperatingModel2027, machineReadableCatalogsIndia2026, omnichannelInventoryReturnsIndia2026, whatsappConversationalCommerceIndia2026, retailMediaNetworksIndia2026, ondcOpenNetworkIndia2026];
+const ALL: WhitePaper[] = [aiShoppingAssistantsIndia, agenticCommerceOmnichannelIndia, quickCommerceSocialDiscoveryIndia, agentEngineOptimizationAmazonGoogleAiMode, cacSqueezeMarketingEfficiencyRatioIndia, quickCommerceUnitEconomicsIndia2026, amazonSearchRankingTacosIndia2026, aiAgentsRetailOperationsIndia2026, zeroClickAttributionMmmIndia2026, personalisedMerchandisingIndia2026, crossBorderD2cExportsIndia2026, ecommerceGrowthPartnerOperatingModel2027, machineReadableCatalogsIndia2026, omnichannelInventoryReturnsIndia2026, whatsappConversationalCommerceIndia2026, retailMediaNetworksIndia2026, ondcOpenNetworkIndia2026, darkStoreAutomationColdChainIndia2026];
 
 export const WHITEPAPERS: WhitePaper[] = [...ALL].sort((a, b) => b.datePublished.localeCompare(a.datePublished));
 export const WHITEPAPER_MAP: Record<string, WhitePaper> = Object.fromEntries(WHITEPAPERS.map((w) => [w.slug, w]));
