@@ -57,6 +57,7 @@ import { amazonVineIndiaGuide } from "./amazon-vine-india-guide";
 import { amazonBrandAnalyticsSqpIndia } from "./amazon-brand-analytics-search-query-performance-india";
 import { amazonSubscribeAndSaveIndia } from "./amazon-subscribe-and-save-india-sellers";
 import { amazonBusinessB2bSellersIndia } from "./amazon-business-b2b-sellers-india";
+import { amazonBrandRegistryIndia } from "./amazon-brand-registry-india-guide";
 
 const ALL: BlogPost[] = [
   acosVsTacos,
@@ -108,6 +109,7 @@ const ALL: BlogPost[] = [
   amazonBrandAnalyticsSqpIndia,
   amazonSubscribeAndSaveIndia,
   amazonBusinessB2bSellersIndia,
+  amazonBrandRegistryIndia,
 ];
 
 export const POSTS: BlogPost[] = [...ALL].sort(
